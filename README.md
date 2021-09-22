@@ -20,7 +20,7 @@ This is a port of the steam guide with more detail and better formatting
   All of these can be used in conjunction with each other so feel free to experiment!
   
 ### Tools and Resources
- - ##### General modding  
+ - ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel)
   
   - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) - this is where you can download Unreal Engine
