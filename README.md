@@ -14,7 +14,8 @@ This is a port of the steam guide with more detail and better formatting
  - [Replacing textures and UI]
  - [Disabling objects]
  - [Editing materials]
-  All of these can be used in conjunction with each-feel free to experiment!
+ - 
+  All of these can be used in conjunction with each other so feel free to experiment!
   
 ### Tools and Resources
   
