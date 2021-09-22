@@ -21,8 +21,8 @@ This is a port of the steam guide with more detail and better formatting
   
 ### Tools and Resources
  - ### General modding  
-  - [Umodel](https://www.gildor.org/en/projects/umodel)
+  - [Umodel](https://www.gildor.org/en/projects/umodel)by Gildor for The viewing and export of game assets
   
-  - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) - this is where you can download Unreal Engine
+  - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) by Epic Games where you can download Unreal Engine
   
   - []
