@@ -2,6 +2,7 @@
 
 # Blue-Fire-Modding
 This is a port of the steam guide with more detail and better formatting
+**Tools and resources can be found at the bottom**
 
 ### The Basics
  - [Decompressing the pak](./Unpaking.md)
