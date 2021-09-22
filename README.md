@@ -3,4 +3,18 @@
 # Blue-Fire-Modding
 This is a port of the steam guide with more detail and better formatting
 
-
+### The Basics
+  [Decompressing the pak]
+  [Using UEViewer(Umodel) to view and extract assets]
+  [Configuration and packaging in engine]
+  [Final Paking]
+ 
+### Specific mod guides
+  [Replacing models]
+  [Replacing textures and UI]
+  [Disabling objects]
+  [Editing materials]
+  All of these can be used in conjunction with each-feel free to experiment!
+  
+### Tools and Resources
+  
