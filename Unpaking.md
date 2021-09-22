@@ -6,6 +6,6 @@ Open command prompt and drag unrealpak.exe into command prompt. This .exe should
 ![](Images/unrealpak.PNG)
 
 Then put a space and drag the pak file into command prompt. This file should be located in Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks assuming you installed it from steam. If you installed in on GOG then this will be in GOG games\Blue Fire\Blue Fire\Content\Paks
-
+![](Images/Pakfile.PNG)
 
 Put a space and type -Extract. Finally put a space after that and enter the directory of the folder you want the assets to be extracted to. Press enter and the game files should extract.
