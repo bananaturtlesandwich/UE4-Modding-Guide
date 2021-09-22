@@ -33,4 +33,4 @@ This is a port of the steam guide with more detail and better formatting
   - [Fmodel](https://fmodel.app/) by Jet Brains in an alternative to umodel that is stronger than umodel with more text based formats (this may change because fmodel receives regular updates)
   - [UassetAPI](https://github.com/atenfyr/UAssetAPI) by [atenfyr](https://github.com/atenfyr) is an API that can read and modify UE4 game assets via C# scripting
   - [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by [atenfyr](https://github.com/atenfyr) is a thin wrapper of UassetAPI with a user interface which is more user friendly than coding with uassetAPI 
-  
+### Dialogue/Translation
