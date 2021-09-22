@@ -22,14 +22,11 @@ This is a port of the steam guide with more detail and better formatting
 ### Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
-  
   - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) by Epic Games where you can download Unreal Engine
-  
   - [UnrealPak scripts](./Tools/UnrealPak.zip) By [Fluffyquack](https://github.com/FluffyQuack) used for final paking
  
  ### Models
   - [Blender](https://www.blender.org/download/) by the [Blender foundation](https://github.com/blender) for 3d modelling
-  
   - [PSK and PSA importer](https://github.com/Befzz/blender3d_import_psk_psa) by [Befzz](https://github.com/Befzz) for importing exported meshes and armatures
   
  ### Code/Uasset editing
