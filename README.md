@@ -25,4 +25,4 @@ This is a port of the steam guide with more detail and better formatting
   
   - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) by Epic Games where you can download Unreal Engine
   
-  - [UnrealPak scripts](Blue-Fire-Modding/Tools/UnrealPak Scripts/) By Fluffyquack used for final paking
+  - [UnrealPak scripts](./Tools/UnrealPak.zip) By Fluffyquack used for final paking
