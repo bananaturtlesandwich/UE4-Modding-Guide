@@ -5,7 +5,7 @@ This is a port of the steam guide with more detail and better formatting
 
 ### The Basics
  - [Decompressing the pak](./Unpaking.md)
- - [Using UEViewer(Umodel) to view and extract assets]
+ - [Using UEViewer(Umodel) to view and extract assets](./UEViewer)
  - [Configuration and packaging in engine]
  - [Final Paking]
  
