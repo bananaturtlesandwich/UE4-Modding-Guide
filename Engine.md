@@ -1,8 +1,8 @@
 For this example I will use my Fara discord shirt as an example. Here is the original texture for Fara.
-![](Images/Fara_Texture.png)
+![](Images/FaraTexture.png)
 
 I have now changed it so that the model will have the desired change
-![](Images/faratex.PNG)
+![](Images/Fara_Texture.png)
 
 Open Unreal Engine 4.25.4 and create a blank game project with no starter content
 ![](Images/UE.PNG) ![](Images/UE2.PNG) ![](Images/UE3.PNG)
