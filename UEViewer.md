@@ -1,3 +1,5 @@
+***Note that UModel has many more features than viewing and exporting, e.g showing related assets and toggling certain views - see them all using the dropdowns and by pressing H to see the keybinds***
+
 For the next step you need umodel. Install the program from the links above and open the folder you extracted the game assets to, in my case BF_Unpaked.
 
 ![](Images/Umodel.PNG)
@@ -12,4 +14,4 @@ Find a package you would like to replace and view it. ctrl+x to export or export
 
 ![](Images/Capture.PNG)
 
-***Note that UModel has many quality of life features-see them all using the dropdowns in viewing mode and by pressing Y for convenience keybinds***
+
