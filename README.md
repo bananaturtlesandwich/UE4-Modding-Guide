@@ -7,7 +7,7 @@ This is a port of the steam guide with more detail and better formatting
  - [Decompressing the pak](./Unpaking.md)
  - [Using UEViewer(Umodel) to view and extract assets](./UEViewer.md)
  - [Configuration and packaging in engine](./Engine.md)
- - [Final Paking]
+ - [Final Paking](./Paking.md)
  
 ### Specific mod guides
  - [Replacing models]
