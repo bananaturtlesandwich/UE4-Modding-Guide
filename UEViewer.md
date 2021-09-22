@@ -11,3 +11,5 @@ You can explore the game files and find something you want to replace or modify.
 Find a package you would like to replace and view it. ctrl+x to export or export by using the tools pop-down. (here are my export preferences)
 
 ![](Images/Capture.PNG)
+
+***Note that UModel has many quality of life features-see them all using the dropdowns in viewing mode and by pressing Y for convenience keybinds***
