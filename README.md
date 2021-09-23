@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/582598044407562240?color=9cf)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/)
+[![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20discord%21&style=for-the-badge))](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/)
 
 # Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
