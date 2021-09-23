@@ -1,7 +1,7 @@
 [![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20blue%20fire%20discord%21&style=for-the-badge)](https://discord.gg/q4ydWSG)
 
 # Blue Fire Modding
-This is a port of the steam guide with more detail and better formatting
+This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
 
 **Tools and resources can be found at the bottom**
 
@@ -12,13 +12,14 @@ This is a port of the steam guide with more detail and better formatting
  - [Final Paking](./Paking.md)
  
 ### Specific mod guides
- - [Replacing models]
- - [Replacing textures and UI]
- - [Disabling objects]
- - [Editing materials]
- - 
+ - [Replacing models]()
+ - [Disabling objects]()
+ - [Editing materials]()
+ - [Text and Dialogue]()
+ - [Replacing levels]() (custom maps)
   All of these can be used in conjunction with each other so feel free to experiment!
-  
+ - [Blueprint modding]()
+ - [Code]
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
@@ -33,6 +34,7 @@ This is a port of the steam guide with more detail and better formatting
   - [Fmodel](https://fmodel.app/) by Jet Brains in an alternative to umodel that is stronger than umodel with more text based formats (this may change because fmodel receives regular updates)
   - [UassetAPI](https://github.com/atenfyr/UAssetAPI) by [atenfyr](https://github.com/atenfyr) is an API that can read and modify UE4 game assets via C# scripting
   - [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by [atenfyr](https://github.com/atenfyr) is a thin wrapper of UassetAPI with a user interface which is more user friendly than coding with uassetAPI 
+  - [Heilos's](https://github.com/kaiheilos) [Asset editor](https://github.com/kaiheilos/Utilities) is an alternative to UassetGUI
   - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) is a free hex editor that allows viewing, editing and searching through unreal engine assets
 ### Dialogue/Translation
   - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
