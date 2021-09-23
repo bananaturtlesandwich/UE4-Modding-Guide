@@ -19,7 +19,7 @@ This is a port of the steam guide with more detail and better formatting
  - 
   All of these can be used in conjunction with each other so feel free to experiment!
   
-### Tools and Resources
+# Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
   - [Epic Games launcher](https://www.epicgames.com/store/en-US/download) by Epic Games where you can download Unreal Engine
@@ -37,8 +37,16 @@ This is a port of the steam guide with more detail and better formatting
 ### Dialogue/Translation
   - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
   - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
-### Miscellaneous
+### Blueprint modding
+  - The [modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime - V2 releasing very soon
 
+# Guides
+  - My [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174) on Blue Fire modding which some sections were copied from(formatting is horrible)
+  - [Dmgvol's](https://github.com/Dmgvol) [GRGuides](https://github.com/Dmgvol/GR_Guides) which covers a lot of what is covered here (this guide was based on this)
+  - [atenfyr's](https://github.com/atenfyr) [astroneer modder's guide](https://docs.google.com/document/d/193p6thlTOWffF-JIeTGrLUHg9Um5i6gwMJaK4kzy9Ik) which is relevant ignoring the astroneer specific parts
+  - [Buckminsterfullerine's](https://github.com/Buckminsterfullerene02) BP tutorials for DRG - relevant from 3 onwards
+  - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
+  - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
 ### Discords
  *in order of relevance*
   - [Blue Fire](https://discord.gg/q4ydWSG) is the official server for blue fire! There is a modding channel and a tolls and resources channel which is basically this
