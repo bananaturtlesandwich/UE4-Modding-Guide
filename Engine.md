@@ -2,17 +2,21 @@
 
 # Config and packaging
 
+### Content creation
 - For this example I will use my Fara discord shirt mod. Here is the original texture for Fara.
 ![](Images/FaraTexture.png)
 
 - I have now changed it so that the model will have the desired change
 ![](Images/Fara_Texture.png)
 
+### Setting up
 - Open Unreal Engine 4.25.4 and create a blank game project with no starter content
 ![](Images/UE.PNG) ![](Images/UE2.PNG) ![](Images/UE3.PNG)
 
-- Go into edit>project settings and uncheck use pak file
+- Go into edit > project settings and uncheck use pak file
 
 - Now recreate the folder structure that was obtained from exporting from umodel in Unreal engine. In my case the folders went UmodelExport\BlueFire\NPC\Fara\Textures so I must create the folders like this:
 ![](Images/UE4.PNG)
+
+### Package
 - Now ctrl+shift+S to save all and navigate to file>package project>Windows(64-bit). Select the folder you want to cook the mod into and wait for the mod to package.
