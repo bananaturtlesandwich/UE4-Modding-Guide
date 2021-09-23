@@ -14,7 +14,7 @@ This is a port of the steam guide with more detail and better formatting. This g
 ### Specific mod guides
  - [Replacing models](./Models.md)
  - [Disabling objects](./Disabling.md)
- - [Editing materials]
+ - [Editing materials](./Materials.md)
  - [Text and Dialogue]
  - [Replacing levels] (custom maps)
  - [Asset editing]
