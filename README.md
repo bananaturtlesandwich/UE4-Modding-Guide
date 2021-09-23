@@ -70,3 +70,4 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [atenfyr](https://github.com/atenfyr)/adolescent for making UassetAPI and GUI 
   - [RusselJ](https://github.com/RussellJerome) for making the [modloader](https://github.com/RussellJerome/UnrealModLoader)
   - [Fluffyquack](https://github.com/FluffyQuack) for making tools
+  - [Robi Studios](https://www.robistudios.com/) for making Blue Fire - you guys are awesome!
