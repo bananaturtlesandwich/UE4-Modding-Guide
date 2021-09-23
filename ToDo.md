@@ -1,17 +1,17 @@
-[x] figure out cool badge thing that's in GR_Guides
+- [x] figure out cool badge thing that's in GR_Guides
 
-[x] Port steam guide
+- [x] Port steam guide
 
-[x] Disable objects guide
+- [x] Disable objects guide
 
-[] Materials guide
+- [] Materials guide
 
-[] Text guide
+- [] Text guide
 
-[] custom map guide
+- [] custom map guide
 
-[] asset editing
+- [] asset editing
 
-[] Blueprint guide
+- [] Blueprint guide
 
-[x] port relevant resources from UE modding(May be a bit excessive)
+- [x] port relevant resources from UE modding(May be a bit excessive)
