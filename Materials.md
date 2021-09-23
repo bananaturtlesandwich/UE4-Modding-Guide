@@ -5,7 +5,7 @@
 - Open the props.txt and find the values you would want to change
 - ctrl+F and search for the value with these settings
 - if it's a common number like one, unfortunately you'll have to use trial and error for parameters other than vector (for vector GRcolorswapper can be used)
-- Make your edit, save without changing the file size and pack as normal
+- Make your edit in the data inspector, save and pack as normal
 
 For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)
 
