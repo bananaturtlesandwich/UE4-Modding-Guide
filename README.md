@@ -51,8 +51,8 @@ This is a port of the steam guide with more detail and better formatting
   Extra discords can be found in [UE modding](https://discord.gg/zVvsE9mEEa)
   
 ### Credits
-  - FatihG_
-  - Buckminsterfullerine
-  - DmgVol
-  - atenfyr/adolescent
-  - Fluffyquack
+  - FatihG_ for making cool cosmetic stuff and being patient with me at the start
+  - [Buckminsterfullerine](https://github.com/Buckminsterfullerene02) for making the UE modding discord 
+  - [Dmgvol](https://github.com/Dmgvol) for making cool mods like an enemy randomizer and guides
+  - [atenfyr](https://github.com/atenfyr)/adolescent for making UassetAPI and GUI 
+  - [Fluffyquack]((https://github.com/FluffyQuack)) for making tools
