@@ -55,4 +55,5 @@ This is a port of the steam guide with more detail and better formatting
   - [Buckminsterfullerine](https://github.com/Buckminsterfullerene02) for making the UE modding discord 
   - [Dmgvol](https://github.com/Dmgvol) for making cool mods like an enemy randomizer and guides
   - [atenfyr](https://github.com/atenfyr)/adolescent for making UassetAPI and GUI 
-  - [Fluffyquack]((https://github.com/FluffyQuack)) for making tools
+  - [RusselJ](https://github.com/RussellJerome) for making the [modloader](https://github.com/RussellJerome/UnrealModLoader)
+  - [Fluffyquack](https://github.com/FluffyQuack) for making tools
