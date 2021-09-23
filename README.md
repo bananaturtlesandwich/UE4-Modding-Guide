@@ -33,6 +33,19 @@ This is a port of the steam guide with more detail and better formatting
   - [Fmodel](https://fmodel.app/) by Jet Brains in an alternative to umodel that is stronger than umodel with more text based formats (this may change because fmodel receives regular updates)
   - [UassetAPI](https://github.com/atenfyr/UAssetAPI) by [atenfyr](https://github.com/atenfyr) is an API that can read and modify UE4 game assets via C# scripting
   - [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by [atenfyr](https://github.com/atenfyr) is a thin wrapper of UassetAPI with a user interface which is more user friendly than coding with uassetAPI 
+  - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) is a free hex editor that allows viewing, editing and searching through unreal engine assets
 ### Dialogue/Translation
-  - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept
+  - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
   - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
+### Miscellaneous
+
+### Discords
+ *in order of relevance*
+  - [Blue Fire](https://discord.gg/q4ydWSG) is the official server for blue fire! There is a modding channel and a tolls and resources channel which is basically this
+  - [UE modding](https://discord.gg/zVvsE9mEEa) is a small server aiming to pull together and gather tools and knowledge of UE modding - good if you want extra tools or more code related questions
+  - [Ghostrunner modding](https://discord.gg/eZRz3Q5) is the combined modding and speedrunning server for Ghostrunner. Ghostrunner is made in the same version of unreal so is very relevant
+  - [Deep Rock Galactic modding](https://discord.gg/3EVUQjz8N5) is the modding server for DRG - also made in the same version of UE
+  - [Code Vein and Scarlet nexus modding](https://discord.gg/VvfvWn9) is very useful for guides
+  - [Bloodstained modding](https://discord.gg/b9XBH4f) is the modding server for the Bloodstained games
+  - [Illusory](https://discord.gg/JVgD2w3Npj) is useful for blueprint modding
+  Extra discords can be found in [UE modding](https://discord.gg/zVvsE9mEEa)
