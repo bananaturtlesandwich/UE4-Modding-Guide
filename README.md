@@ -17,9 +17,9 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Editing materials]()
  - [Text and Dialogue]()
  - [Replacing levels]() (custom maps)
-  All of these can be used in conjunction with each other so feel free to experiment!
+ - [Asset editing]()
+ ^ All of these can be used in conjunction with each other so feel free to experiment!
  - [Blueprint modding]()
- - [Code]
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
