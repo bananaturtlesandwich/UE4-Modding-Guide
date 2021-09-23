@@ -49,3 +49,10 @@ This is a port of the steam guide with more detail and better formatting
   - [Bloodstained modding](https://discord.gg/b9XBH4f) is the modding server for the Bloodstained games
   - [Illusory](https://discord.gg/JVgD2w3Npj) is useful for blueprint modding
   Extra discords can be found in [UE modding](https://discord.gg/zVvsE9mEEa)
+  
+### Credits
+  - FatihG_
+  - Buckminsterfullerine
+  - DmgVol
+  - atenfyr/adolescent
+  - Fluffyquack
