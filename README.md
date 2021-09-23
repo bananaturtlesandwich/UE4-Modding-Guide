@@ -13,13 +13,13 @@ This is a port of the steam guide with more detail and better formatting. This g
  
 ### Specific mod guides
  - [Replacing models]()
- - [Disabling objects]()
- - [Editing materials]()
- - [Text and Dialogue]()
- - [Replacing levels]() (custom maps)
- - [Asset editing]()
+ - [Disabling objects]
+ - [Editing materials]
+ - [Text and Dialogue]
+ - [Replacing levels] (custom maps)
+ - [Asset editing]
  ^ All of these can be used in conjunction with each other so feel free to experiment!
- - [Blueprint modding]()
+ - [Blueprint modding]
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
