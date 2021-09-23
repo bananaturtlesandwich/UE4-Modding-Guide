@@ -1,3 +1,5 @@
+# Final Paking
+
 Go into the folder where you packaged your mod and copy the Content folder in WindowsNoEditor\*insert project name* into a new folder which your mod will be contained in. Create a folder called Content and a folder called Blue Fire. Place BlueFire into Content and place content into Blue Fire. Folder structure is very important for UE4 modding so make sure spellings of the folders are the same as they were when exported. Extract unrealpak and drag the mod folder onto UnrealPak-with-compression.exe
 ![](Images/Pak.png)
 
