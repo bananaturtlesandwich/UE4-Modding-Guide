@@ -1,5 +1,7 @@
 ***While this is an example for a texture mod, the way in which the project is configured is very much the same for each mod***
 
+# Config and packaging
+
 For this example I will use my Fara discord shirt mod. Here is the original texture for Fara.
 ![](Images/FaraTexture.png)
 
