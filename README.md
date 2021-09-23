@@ -39,7 +39,7 @@ This is a port of the steam guide with more detail and better formatting
   - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
 ### Blueprint modding
   - The [modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime - V2 releasing very soon
-  - DRG Parser
+  - [DRG Parser](https://github.com/Buckminsterfullerene02/DRG-Modding/tree/main/DRGParser) allows parsing of uasset and uexps to make dummying easier
 
 # Guides
   - My [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174) on Blue Fire modding which some sections were copied from(formatting is horrible)
