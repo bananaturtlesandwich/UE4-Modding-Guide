@@ -4,14 +4,14 @@
 
 - [x] Disable objects guide
 
-- [] Materials guide
+- [ ] Materials guide
 
-- [] Text guide
+- [ ] Text guide
 
-- [] custom map guide
+- [ ] custom map guide
 
-- [] asset editing
+- [ ] asset editing
 
-- [] Blueprint guide
+- [ ] Blueprint guide
 
 - [x] port relevant resources from UE modding(May be a bit excessive)
