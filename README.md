@@ -34,3 +34,5 @@ This is a port of the steam guide with more detail and better formatting
   - [UassetAPI](https://github.com/atenfyr/UAssetAPI) by [atenfyr](https://github.com/atenfyr) is an API that can read and modify UE4 game assets via C# scripting
   - [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by [atenfyr](https://github.com/atenfyr) is a thin wrapper of UassetAPI with a user interface which is more user friendly than coding with uassetAPI 
 ### Dialogue/Translation
+  - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept
+  - [Kein's serialiser]
