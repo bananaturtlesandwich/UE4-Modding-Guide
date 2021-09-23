@@ -12,7 +12,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Final Paking](./Paking.md)
  
 ### Specific mod guides
- - [Replacing models]()
+ - [Replacing models](./Models.md)
  - [Disabling objects]
  - [Editing materials]
  - [Text and Dialogue]
