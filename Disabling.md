@@ -14,4 +14,4 @@ This is a useful way to disable actors in game - can be used for stuff like remo
 - Create a blank text document with the same name as the uasset you want to disable and change the file extension to .uasset
 ![](Images/Structure.png)
 
-- Package the folder and place in mod folder
+- Package the folder, place in mod folder and run the game
