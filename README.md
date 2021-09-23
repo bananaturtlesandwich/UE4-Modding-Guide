@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20blue%20fire%20discord%21&style=for-the-badge)](https://discord.gg/q4ydWSG)
+[![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/)
 
 # Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
@@ -13,7 +13,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  
 ### Specific mod guides
  - [Replacing models](./Models.md)
- - [Disabling objects]
+ - [Disabling objects](./Disabling.md)
  - [Editing materials]
  - [Text and Dialogue]
  - [Replacing levels] (custom maps)
@@ -70,3 +70,4 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [atenfyr](https://github.com/atenfyr)/adolescent for making UassetAPI and GUI 
   - [RusselJ](https://github.com/RussellJerome) for making the [modloader](https://github.com/RussellJerome/UnrealModLoader)
   - [Fluffyquack](https://github.com/FluffyQuack) for making tools
+  - [Robi Studios](https://www.robistudios.com/) for making Blue Fire - you guys are awesome!
