@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/)
+[![Discord](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/)
 
 # Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
@@ -14,8 +14,8 @@ This is a port of the steam guide with more detail and better formatting. This g
 ### Specific mod guides
  - [Replacing models](./Models.md)
  - [Disabling objects](./Disabling.md)
- - [Editing materials]
- - [Text and Dialogue]
+ - [Editing materials](./Materials.md)
+ - [Text and Dialogue](./Dialogue.md)
  - [Replacing levels] (custom maps)
  - [Asset editing]
  - 
@@ -51,6 +51,7 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [Buckminsterfullerine's](https://github.com/Buckminsterfullerene02) BP tutorials for DRG - relevant from 3 onwards
   - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
   - [GHFear's](https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured) BP guides - specific to RusselJ's modloader
+  - [Spyro Reignited](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/) modding guide
   - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
 ### Discords
  *in order of relevance*

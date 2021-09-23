@@ -1,3 +1,5 @@
+**Credits to Dmgvol I basically just rewrote their guide**
+
 *If file extensions aren't showing in file explorer enable them in the view settings*
 
 # Disabling Objects
