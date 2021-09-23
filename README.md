@@ -13,7 +13,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  
 ### Specific mod guides
  - [Replacing models](./Models.md)
- - [Disabling objects]
+ - [Disabling objects](./Disabling.md)
  - [Editing materials]
  - [Text and Dialogue]
  - [Replacing levels] (custom maps)
