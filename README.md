@@ -1,6 +1,6 @@
 [![Discord](https://img.shields.io/discord/707647729043636276?color=%237289da&label=Join%20the%20blue%20fire%20discord%21&style=for-the-badge)](https://discord.gg/q4ydWSG)
 
-# Blue-Fire-Modding
+# Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting
 
 **Tools and resources can be found at the bottom**
@@ -46,6 +46,7 @@ This is a port of the steam guide with more detail and better formatting
   - [atenfyr's](https://github.com/atenfyr) [astroneer modder's guide](https://docs.google.com/document/d/193p6thlTOWffF-JIeTGrLUHg9Um5i6gwMJaK4kzy9Ik) which is relevant ignoring the astroneer specific parts
   - [Buckminsterfullerine's](https://github.com/Buckminsterfullerene02) BP tutorials for DRG - relevant from 3 onwards
   - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
+  - [GHFear's](https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured) BP guides - specific to RusselJ's modloader
   - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
 ### Discords
  *in order of relevance*
