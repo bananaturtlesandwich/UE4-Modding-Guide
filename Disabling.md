@@ -15,3 +15,4 @@ This is a useful way to disable actors in game - can be used for stuff like remo
 ![](Images/Structure.png)
 
 - Package the folder, place in mod folder and run the game
+![](Images/NoCastle.png)
