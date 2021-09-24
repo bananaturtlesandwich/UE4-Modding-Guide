@@ -1,4 +1,4 @@
-**Credits to FatihG_ for instance editing and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
+**Credits to FatihG_ for the second method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
 
 - For colour editing, you can hex edit a material
 - For this, export your material from Umodel in both ways so that you have the uasset and the props.txt
@@ -9,7 +9,8 @@
 
 For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip) and follow this guide [here](https://github.com/Dmgvol/GR_Guides/blob/main/ColorSwap.md)
 
-- There is also an alternate (pretty much obsolete) method for editing material instances in engine
+- There is also an alternate (pretty much obsolete) method for editing material instances in engine that I will put here for the sake of documentation
 
 *the only reason I would use this is if I wanted everything in one project but then again just put the uexp in the final paking folders*
+
 
