@@ -10,6 +10,7 @@
 - Open the .uexp file for the material in a hex editor
 - ctrl+F and search for the value with these settings if in HxD
 ![](Images/Hxd.png)
+
 - If it's a common number like one, unfortunately you'll have to use trial and error for parameters other than vector (for vector GRcolorswapper can be used)
 - Make your edit in the data inspector and save
 ![](Images/data inspector.png)
