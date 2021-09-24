@@ -5,6 +5,7 @@
 ![](Images/save.png)
 
 - Open the props.txt and find the values you would want to change
+
 ![](props.png)
 
 - Open the .uexp file for the material in a hex editor
