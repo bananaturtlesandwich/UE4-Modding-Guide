@@ -15,7 +15,7 @@
 - If it's a common number like one, unfortunately you'll have to use trial and error for parameters other than vector (for vector GRcolorswapper can be used)
 - Make your edit in the data inspector and save
 
-![](Images/data inspector.png)
+![](Images/Images/data%20inspector.png)
 
 - Pack as normal
 
