@@ -30,6 +30,8 @@ For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.c
 - Create a new material and create parameters inside the material for each of the parameters in the props.txt
 - Set them with their default values and names
 - Connect all the parameters to the main node using math nodes (how you do it is not important)
+![](Images/nodes.png)
+
 - Once that is done, save the material and create a material instance of it with the same name as in the game files
 - You can now edit the parameters as you please
 - Once you are happy with the changes, save and package the project
