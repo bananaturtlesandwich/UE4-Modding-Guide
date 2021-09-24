@@ -25,4 +25,13 @@ For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.c
 
 *the only reason I would use this is if I wanted everything in one project but then again just put the uexp in the final paking folders*
 
+- First export the material instance you wish to modify normally using umodel
+- Create a blank UE4 project (remember to untick use pak file) and create the appropriate folders for the material
+- Create a new material and create parameters inside the material for each of the parameters in the props.txt
+- Set them with their default values and names
+- Connect all the parameters to the main node using math nodes (how you do it is not important)
+- Once that is done, save the material and create a material instance of it with the same name as in the game files
+- You can now edit the parameters as you please
+- Once you are happy with the changes, save and package the project
+- Package as normal except remove the parent material assets so that the parent material does not overwrite the actual parent material
 
