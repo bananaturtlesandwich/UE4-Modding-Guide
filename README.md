@@ -51,6 +51,7 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [Buckminsterfullerine's](https://github.com/Buckminsterfullerene02) BP tutorials for DRG - relevant from 3 onwards
   - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
   - [GHFear's](https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured) BP guides - specific to RusselJ's modloader
+  - [Spyro Reignited](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/) modding guide
   - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
 ### Discords
  *in order of relevance*
