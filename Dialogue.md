@@ -7,4 +7,4 @@ In the case of Blue Fire, there are no datatables and therefore the serialiser's
 - StringNames(names of characters and voids)
 - StringTable(prompts and other stuff)
 - TextPopUps(The popups of text that appear next to characters)
-- VoidMakerTable(The base for the Void Editor)
+- VoidMakerTable(The base for the WIP Void Editor)
