@@ -11,4 +11,4 @@ In the case of Blue Fire, there are no datatables and therefore the serialiser's
 - TextPopUps(The popups of text that appear next to characters)
 - VoidMakerTable(The base for the WIP Void Editor)
 
-The serialiser is better to use because it allows entering of data that is
+The serialiser is better to use because it allows entering of data that is not equal to the normal file size
