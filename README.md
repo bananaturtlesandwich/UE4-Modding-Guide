@@ -16,7 +16,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Disabling objects](./Disabling.md)
  - [Editing materials](./Materials.md)
  - [Text and Dialogue](./Dialogue.md)
- - [Replacing levels](./Levels) (custom maps)
+ - [Replacing levels](./Levels.md) (custom maps)
  - [Asset editing]
  - 
  ^ All of these can be used in conjunction with each other so feel free to experiment!
