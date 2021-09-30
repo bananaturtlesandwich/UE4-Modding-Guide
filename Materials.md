@@ -3,6 +3,7 @@
 **Credits to FatihG_ for the second method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
 
 For pretty much everything, you can hex edit a material
+
 __User Friendly Method__
 
 __Manual method__
