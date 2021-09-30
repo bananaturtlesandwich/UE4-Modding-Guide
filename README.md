@@ -16,10 +16,11 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Disabling objects](./Disabling.md)
  - [Editing materials](./Materials.md)
  - [Text and Dialogue](./Dialogue.md)
- - [Replacing levels] (custom maps)
- - [Asset editing]
- - 
- ^ All of these can be used in conjunction with each other so feel free to experiment!
+ - [Replacing levels](./Levels.md) (custom maps)
+ - [Using UassetGUI]
+ - [Using UassetAPI]
+ 
+***^ All of these can be used in conjunction with each other so feel free to experiment!***
  - [Blueprint modding]
 # Tools and Resources
  ### General modding  
@@ -52,13 +53,14 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
   - [GHFear's](https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured) BP guides - specific to RusselJ's modloader
   - [Spyro Reignited](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/) modding guide
-  - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
+  - [Satisfactory modding guide](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is specific, but a lot can be learnt from it
+  - [UE4 documentation](https://docs.unrealengine.com/4.27/en-US/) is useful for those newer to the engine
 ### Discords
  *in order of relevance*
-  - [Blue Fire](https://discord.gg/q4ydWSG) is the official server for blue fire! There is a modding channel and a tolls and resources channel which is basically this
+  - [Blue Fire](https://discord.gg/q4ydWSG) is the official server for blue fire! There is a modding channel and a tools and resources channel which is basically this section of the guide
   - [UE modding](https://discord.gg/zVvsE9mEEa) is a small server aiming to pull together and gather tools and knowledge of UE modding - good if you want extra tools or more code related questions
   - [Ghostrunner modding](https://discord.gg/eZRz3Q5) is the combined modding and speedrunning server for Ghostrunner. Ghostrunner is made in the same version of unreal so is very relevant
-  - [Deep Rock Galactic modding](https://discord.gg/3EVUQjz8N5) is the modding server for DRG - also made in the same version of UE
+  - [DRG modding](https://discord.gg/3EVUQjz8N5) is the modding server for Deep Rock Galactic - also made in the same version of UE and is very active due to it's native modding support
   - [Code Vein and Scarlet nexus modding](https://discord.gg/VvfvWn9) is very useful for guides
   - [Bloodstained modding](https://discord.gg/b9XBH4f) is the modding server for the Bloodstained games
   - [Illusory](https://discord.gg/JVgD2w3Npj) is useful for blueprint modding

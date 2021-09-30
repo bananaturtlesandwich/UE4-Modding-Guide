@@ -2,7 +2,11 @@
 
 **Credits to FatihG_ for the second method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
 
-- For colour editing, you can hex edit a material
+For pretty much everything, you can hex edit a material
+
+__User Friendly Method__
+
+__Manual method__
 - For this, export your material from Umodel in both ways so that you have the uasset and the props.txt
 ![](Images/save.png)
 
