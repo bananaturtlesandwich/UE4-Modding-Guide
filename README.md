@@ -19,7 +19,8 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Replacing levels](./Levels.md) (custom maps)
  - [Using UassetGUI]
  - [Using UassetAPI]
- ^ All of these can be used in conjunction with each other so feel free to experiment!
+ 
+***^ All of these can be used in conjunction with each other so feel free to experiment!***
  - [Blueprint modding]
 # Tools and Resources
  ### General modding  
