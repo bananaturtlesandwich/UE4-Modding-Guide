@@ -6,8 +6,11 @@ For pretty much everything, you can hex edit a material
 
 ### Convenient Method
 This has no downsides to the other methods. The other methods are here if others wish to know them.
-Download [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by @atenfyr 
-
+- Download [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by atenfyr
+- Set the version to whatever version of UE your game uses(For Blue Fire it's 4.25)
+- Open the target material and search the exports for parameter values
+- These can be changed in any way you wish
+- If opened from the export folder, 
 
 ### Manual method
 - For this, export your material from Umodel in both ways so that you have the uasset and the props.txt
