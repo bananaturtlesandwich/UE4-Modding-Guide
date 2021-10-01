@@ -53,7 +53,8 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [DRG modding](https://github.com/Buckminsterfullerene02/DRG-Modding/) is a collection of DRG guides and tools by [Buckminsterfullerine](https://github.com/Buckminsterfullerene02)
   - [GHFear's](https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured) BP guides - specific to RusselJ's modloader
   - [Spyro Reignited](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/) modding guide
-  - [Satisfactory modding](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is in some places better than UE documentation
+  - [Satisfactory modding guide](https://docs.ficsit.app/satisfactory-modding/latest/index.html) is specific, but a lot can be learnt from it
+  - [UE4 documentation](https://docs.unrealengine.com/4.27/en-US/) is useful for those newer to the engine
 ### Discords
  *in order of relevance*
   - [Blue Fire](https://discord.gg/q4ydWSG) is the official server for blue fire! There is a modding channel and a tolls and resources channel which is basically this
