@@ -11,4 +11,6 @@
 - Alternatively, you could turn on advanced collision in engine for convenience at the cost of extra processing needed for its calculation or add collision in the model viewer by turning on collision view
 - Set up a UE4 project(turn off use pak file) and import the course model into the proper folders
 - Link materials and material instances like normal
-- save content and package
+- Save content and package
+
+For editing other things in the level/map parse the umap file using [DRGParser](https://github.com/Buckminsterfullerene02/DRG-Modding/tree/main/DRGParser) and you can view all the names and their location in the umap among other things
