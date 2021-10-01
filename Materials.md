@@ -1,12 +1,20 @@
 # Materials
 
-**Credits to FatihG_ for the second method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
+**Credits to atenfyr for [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) FatihG_ for the last method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**
 
 For pretty much everything, you can hex edit a material
 
-__User Friendly Method__
+### Convenient Method
+This has no downsides to the other methods. The other methods are here if others wish to know them.
+- Download [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by atenfyr
+- Set the version to whatever version of UE your game uses(For Blue Fire it's 4.25)
+- Open the target material and search the exports for parameter values(names can be found in ParameterInfo)
+- These can be changed in any way you wish
+![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/UassetGUI.png)
+- File<Save as and recreate the file structure like normal
+- Delete the .bak files (and the .uasset because you only changed values) and package
 
-__Manual method__
+### Manual method
 - For this, export your material from Umodel in both ways so that you have the uasset and the props.txt
 ![](Images/save.png)
 
@@ -27,7 +35,7 @@ __Manual method__
 
 For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip) and follow this guide [here](https://github.com/Dmgvol/GR_Guides/blob/main/ColorSwap.md)
 
-### Second method
+### In engine method
 - There is also an alternate (pretty much obsolete) method for editing material instances in engine that I will put here for the sake of documentation
 
 *the only reason I would use this is if I wanted everything in one project but then again just put the uexp in the final paking folders*

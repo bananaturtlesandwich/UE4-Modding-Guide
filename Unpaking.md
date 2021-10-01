@@ -1,8 +1,20 @@
-# Unpaking
+ ### ***Neither BMS scripts or the CMD method seems to work anymore for blue fire so the last method must be used***
 
-[Here's a video detailing the process](https://youtu.be/AElxgCRXF64)-credits to mamoniem
+# Unpaking 
 
-*to find the version of UE your game uses hover over the game exe and it will show the version*
+- Download [BMS scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/BMS%20scripts.zip) by Luigi Auriemma and place them into your paks folder
+- Drag the main pak file onto extract-all.bat 
+![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/BMS.png)
+- If this doesn't work try running the .exes and following the instuctions and it may work
+- if not, then try the next method
+
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
+
+# When BMS scripts don't work
+
+*To find the version of UE your game uses hover over the game exe and it will show the version*
+
+[Here's a video detailing the process](https://youtu.be/AElxgCRXF64)
 
 However here's a summary if some things are unclear:
 Blue Fire is a game made with unreal engine 4.25 so uses pak files to store data. To access this data you must unpak this pak file. For this, you must have Unreal Engine 4.25.4 installed from the epic games launcher.
@@ -18,3 +30,15 @@ Put a space and type -Extract. Finally put a space after that and enter the dire
 If there is an error, remember that syntax in important- here's mine for reference
 "C:\Program Files (x86)\UE_4.25\Engine\Binaries\Win64\UnrealPak.exe" "C:\Program Files (x86)\Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks" -Extract C:\modding\BF_Unpaked
 
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
+
+# When neither of these methods work
+
+- Install [Fmodel](https://fmodel.app/) by Jetbrains and open the pak directly
+- Complete setup
+![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/Fmodel.png)
+- Export all directories you need
+
+*It is not recommended to export everything as it takes ages and some folders like audio are useless for Blue Fire*
+
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
