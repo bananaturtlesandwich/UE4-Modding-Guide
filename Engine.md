@@ -20,3 +20,5 @@
 
 ### Package
 - Now ctrl+shift+S to save all and navigate to file>package project>Windows(64-bit). Select the folder you want to cook the mod into and wait for the mod to package.
+
+# **[Next Step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Paking.md)**
