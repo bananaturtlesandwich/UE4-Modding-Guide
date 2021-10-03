@@ -30,6 +30,8 @@ If there is an error, remember that syntax in important- here's mine for referen
 # When neither of these methods work
 
 - Install [Fmodel](https://fmodel.app/) by Jetbrains and open the pak directly
+- Complete setup
+![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/Fmodel.png)
 - Export all directories you need
-- 
+
 *It is not recommended to export everything as some folders like audio are useless for Blue Fire*
