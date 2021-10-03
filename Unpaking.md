@@ -8,7 +8,7 @@
 - If this doesn't work try running the .exes and following the instuctions and it may work
 - if not, then try the next method
 
-**[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
 
 # When BMS scripts don't work
 
@@ -30,7 +30,7 @@ Put a space and type -Extract. Finally put a space after that and enter the dire
 If there is an error, remember that syntax in important- here's mine for reference
 "C:\Program Files (x86)\UE_4.25\Engine\Binaries\Win64\UnrealPak.exe" "C:\Program Files (x86)\Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks" -Extract C:\modding\BF_Unpaked
 
-**[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
 
 # When neither of these methods work
 
@@ -41,4 +41,4 @@ If there is an error, remember that syntax in important- here's mine for referen
 
 *It is not recommended to export everything as it takes ages and some folders like audio are useless for Blue Fire*
 
-**[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
+# **[Next step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/UEViewer.md)**
