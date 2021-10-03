@@ -8,9 +8,10 @@
 - if not, then try the next method
 
 # When BMS scripts don't work
-[Here's a video detailing the process](https://youtu.be/AElxgCRXF64)-credits to mamoniem
 
 *to find the version of UE your game uses hover over the game exe and it will show the version*
+
+[Here's a video detailing the process](https://youtu.be/AElxgCRXF64)-credits to mamoniem
 
 However here's a summary if some things are unclear:
 Blue Fire is a game made with unreal engine 4.25 so uses pak files to store data. To access this data you must unpak this pak file. For this, you must have Unreal Engine 4.25.4 installed from the epic games launcher.
