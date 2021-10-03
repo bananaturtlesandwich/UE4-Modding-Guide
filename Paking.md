@@ -9,3 +9,6 @@
 This will create a pak file. Rename the pak file with a _P at the end(so the game recognises it as a patch) and create a folder in C:\Program Files (x86)\Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks\~mods ,place the pak file in it and run Blue Fire to see if it worked. Hopefully you should find it did.
 
 ![](Images/drip.png)
+
+Guides on more types of mods are coming and can be found in the main README
+If the mod worked, feel free to submit it to our [nexus mods page](https://www.nexusmods.com/bluefire/mods/) 
