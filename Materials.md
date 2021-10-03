@@ -10,7 +10,9 @@ This has no downsides to the other methods. The other methods are here if others
 - Set the version to whatever version of UE your game uses(For Blue Fire it's 4.25)
 - Open the target material and search the exports for parameter values(names can be found in ParameterInfo)
 - These can be changed in any way you wish
-- If opened from the export folder, 
+![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/UassetGUI.png)
+- File<Save as and recreate the file structure like normal
+- Delete the .bak files (and the .uasset because you only changed values) and package
 
 ### Manual method
 - For this, export your material from Umodel in both ways so that you have the uasset and the props.txt
