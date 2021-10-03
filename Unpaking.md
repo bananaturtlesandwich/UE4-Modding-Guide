@@ -1,7 +1,10 @@
 # Unpaking 
 
 ***Neither BMS scripts or the CMD method seems to work anymore for blue fire so the last method must be used***
-
+- Download [BMS scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/BMS%20scripts.zip) by Luigi Auriemma and place them into your paks folder
+- Drag the main pak file onto extract-all.bat 
+- If this doesn't work try running the .exes and following the instuctions and it may work
+- if not, then try the next method
 
 # When BMS scripts don't work
 [Here's a video detailing the process](https://youtu.be/AElxgCRXF64)-credits to mamoniem
