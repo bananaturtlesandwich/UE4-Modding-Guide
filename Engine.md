@@ -10,7 +10,7 @@
 ![](Images/Fara_Texture.png)
 
 ### Setting up
-- Open Unreal Engine 4.25.4 and create a blank game project with no starter content
+- Open Unreal Engine 4.25 and create a blank game project with no starter content
 ![](Images/UE.PNG) ![](Images/UE2.PNG) ![](Images/UE3.PNG)
 
 - Go into edit > project settings and uncheck use pak file
