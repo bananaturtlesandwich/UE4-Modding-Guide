@@ -2,7 +2,7 @@
 
 # Meshes
 
-- First download [blender](https://www.blender.org/download/) and add the appropriate version of the [PSK importer](https://github.com/Befzz/blender3d_import_psk_psa) to blender as an add-on
+- First download [blender](https://www.blender.org/download/) and add the appropriate version of the [PSK importer](https://github.com/Befzz/blender3d_import_psk_psa) to blender as an add-on in edit>Preferences
 - Export the model that you want to change using umodel and open a new blender project. Delete all the objects in the scene (cameras, lights, etc.) and go to file>import>PSK and select the exported mesh. In blender set the units to metric and either set scene scale to 0.01 or scale down the mesh by 100 because that's what Unreal engine uses.
 
 ![](Images/blend.PNG)
