@@ -1,4 +1,6 @@
-# Unpaking ***Neither BMS scripts or the CMD method seems to work anymore for blue fire so the last method must be used***
+# Unpaking 
+
+***Neither BMS scripts or the CMD method seems to work anymore for blue fire so the last method must be used***
 
 
 # When BMS scripts don't work
