@@ -17,6 +17,8 @@ The serialiser is better to use because it allows entering of data that is not e
 
 To use the serialiser, reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit) guide by FatihG_.
 
+If the text you want to modify is not contained in these you will have to use the [locres extract scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/UE4_Locress_Scripts.zip)
+
 - For use of the .locres extract scripts run the newest executable and select the .locres file in the localisation folder
 - This will generate a .txt with what seems like nonsense
 - Open the file in HxD and you be able to view all the dialogue in the game
