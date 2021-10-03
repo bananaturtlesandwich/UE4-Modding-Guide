@@ -31,4 +31,5 @@ If there is an error, remember that syntax in important- here's mine for referen
 
 - Install [Fmodel](https://fmodel.app/) by Jetbrains and open the pak directly
 - Export all directories you need
+- 
 *It is not recommended to export everything as some folders like audio are useless for Blue Fire*
