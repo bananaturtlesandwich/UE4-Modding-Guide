@@ -17,7 +17,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Editing materials](./Materials.md)
  - [Text and Dialogue](./Dialogue.md)
  - [Replacing levels](./Levels.md) (custom maps)
- - [Using UassetGUI]
+ - [Using UassetGUI](./UAssetGUI.md)
  - [Using UassetAPI]
  
 ***^ All of these can be used in conjunction with each other so feel free to experiment!***
