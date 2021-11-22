@@ -4,9 +4,9 @@
 
 - [x] Disable objects guide
 
-- [ ] Materials guide
+- [x] Materials guide
 
-- [ ] Text guide
+- [x] Text guide
 
 - [ ] custom map guide
 

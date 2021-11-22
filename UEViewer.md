@@ -2,7 +2,7 @@
 
 # Umodel
 
-- For the next step you need umodel. Install the program from the links above and open the folder you extracted the game assets to, in my case BF_Unpaked.
+- For the next step you need umodel. Install the [program](https://www.gildor.org/en/projects/umodel) and open the folder you extracted the game assets to, in my case BF_Unpaked.
 
 ![](Images/Umodel.PNG)
 

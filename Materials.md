@@ -4,6 +4,16 @@
 
 For pretty much everything, you can hex edit a material
 
+If you wish to enable parameters from the parent material then the [in engine method](./Materials.md#in-engine-method) must be used
+
+**Methods**
+
+[Convenient Method](./Materials.md#convenient-method)
+
+[Manual Method](./Materials.md#manual-method)
+
+[In Engine Method](./Materials.md#in-engine-method)
+
 ### Convenient Method
 This has no downsides to the other methods. The other methods are here if others wish to know them.
 - Download [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by atenfyr
@@ -48,7 +58,7 @@ For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.c
 ![](Images/nodes.PNG)
 
 - Once that is done, save the material and create a material instance of it with the same name as in the game files
-- You can now edit the parameters as you please
+- You can now edit the parameters as you please(enable any desired parameters)
 - Once you are happy with the changes, save and package the project
-- Package as normal except remove the parent material assets so that the parent material does not overwrite the actual parent material
+- Package as normal except remove the parent material assets in final paking so that the parent material does not overwrite the actual parent material
 

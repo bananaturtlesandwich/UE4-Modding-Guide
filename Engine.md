@@ -3,6 +3,7 @@
 # Config and packaging
 
 ### Content creation
+**I will not cover content creation in this. Just examples.**
 - For this example I will use my Fara discord shirt mod. Here is the original texture for Fara.
 ![](Images/FaraTexture.png)
 
@@ -10,7 +11,7 @@
 ![](Images/Fara_Texture.png)
 
 ### Setting up
-- Open Unreal Engine 4.25 and create a blank game project with no starter content
+- Open up your version of Unreal Engine 4 and create a blank game project with no starter content(You can include this if you want it doesn't really matter)
 ![](Images/UE.PNG) ![](Images/UE2.PNG) ![](Images/UE3.PNG)
 
 - Go into edit > project settings and uncheck use pak file
