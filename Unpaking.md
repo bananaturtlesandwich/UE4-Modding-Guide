@@ -2,7 +2,9 @@
 
 # Unpaking 
 **Sections**
-
+- [BMS scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Unpaking.md#bms-scripts)
+- [When BMS scripts don't work](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Unpaking.md#when-bms-scripts-dont-work)
+- [Fmodel](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Unpaking.md#when-neither-of-these-methods-work)
 
 # BMS scripts
 - Download [BMS scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/BMS%20scripts.zip) by Luigi Auriemma and place them into your paks folder
