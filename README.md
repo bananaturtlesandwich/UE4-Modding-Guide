@@ -18,7 +18,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Text and Dialogue](./Dialogue.md)
  - [Replacing levels](./Levels.md) (custom maps)
  - [Using UassetGUI](./UAssetGUI.md)
- - [Using UassetAPI]
+ - [Using UassetAPI](./UAssetAPI.md)
  
 ***^ All of these can be used in conjunction with each other so feel free to experiment!***
  - [Blueprint modding]
