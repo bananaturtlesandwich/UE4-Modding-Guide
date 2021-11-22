@@ -10,7 +10,7 @@
 - Then open the .sln in visual studio(Make sure dotnet 4.7.2 SDK and compiler are installed for visual studio) and build UassetAPI
 - This will generate some .dlls in UassetAPI's debug folder which we can reference in our visual studio project
 - Set up a visual studio project from a template (for applications I use a winforms template and for general .uasset editing I use the command line interface)
-- This will generate a simple template that can be used(if you want to add source control I recommend the github extension by github and then you can add source control from the file dropdown)
+- This will generate a simple template in dotnet 4.7.2 that can be used with UassetAPI (if you want to add source control I recommend the github extension by github and then you can add source control from the file dropdown)
 - reference the generated .dlls from the project dropdown and you're ready to start
 - The basic setup you'll want to start in the namespace with will be something like
 ```
@@ -55,3 +55,5 @@ e.g ``` if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is Byt
 
 And then do things to the the export byt in this example like
 ```byt.Value = y.AddNameReference(FString.FromString(Items[19]));```
+
+Using this method you can loop through multiple files very quickly to make edits that would have taken ages to do manually with UassetGUI
