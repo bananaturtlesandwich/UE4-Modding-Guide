@@ -8,21 +8,19 @@ In the case of Blue Fire, there are no datatables and therefore the serialiser's
 
 - Languages
 - Credits
-- StringNames(names of characters and voids)
-- StringTable(prompts and other stuff)
-- TextPopUps(The popups of text that appear next to characters)
-- VoidMakerTable(The base for the WIP Void Editor)
+- StringNames (names of characters and voids)
+- StringTable (prompts and other stuff)
+- TextPopUps (The popups of text that appear next to characters)
+- VoidMakerTable(unused due to the voidmaker being standalone)
 
 The serialiser is better to use because it allows entering of data that is not equal to the normal file size
 
 To use the serialiser, reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit) guide by FatihG_.
 
-If the text you want to modify is not contained in these you will have to use the [locres extract scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/UE4_Locress_Scripts.zip)
+If the text you want to modify is not contained in these you will have to use the [.locres text tool](https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe)
 
-- For use of the .locres extract scripts run the newest executable and select the .locres file in the localisation folder
-- This will generate a .txt with what seems like nonsense
-- Open the file in HxD and you be able to view all the dialogue in the game
-- Search for the dialogue you want to change using ctrl+f
-- Make the changes without changing the file size(If you the text is shorter you can fill the space with spaces and it'll work fine)
-- Once you are done convert the .txt back to .locres using the other executable
-- Pack the file with the right file structure
+- Run the executable and select the .locres file located in localisation
+- This will generate a .txt containing all of the dialogue in the game
+- Make any changes you wish 
+- Once you are done convert the .txt back to .locres using the executable
+- Pack the file with the right file structure and your changes will be saved

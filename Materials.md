@@ -4,6 +4,16 @@
 
 For pretty much everything, you can hex edit a material
 
+If you wish to enable parameters from the parent material then the [in engine method](./Materials.md#in-engine-method) must be used
+
+**Methods**
+
+[Convenient Method](./Materials.md#convenient-method)
+
+[Manual Method](./Materials.md#manual-method)
+
+[In Engine Method](./Materials.md#in-engine-method)
+
 ### Convenient Method
 This has no downsides to the other methods. The other methods are here if others wish to know them.
 - Download [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) by atenfyr
