@@ -39,14 +39,14 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [Heilos's](https://github.com/kaiheilos) [Asset editor](https://github.com/kaiheilos/Utilities) is an alternative to UassetGUI
   - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) is a free hex editor that allows viewing, editing and searching through unreal engine assets
 ### Dialogue/Translation
-  - [Unreal locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
+  - [Unreal .locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
   - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
 ### Blueprint modding
-  - The [modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime - V2 releasing very soon
+  - The [Unreal Modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime
   - [DRG Parser](https://github.com/Buckminsterfullerene02/DRG-Modding/tree/main/DRGParser) allows parsing of uasset and uexps to make dummying easier
 
 # Guides
-  - My [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174) on Blue Fire modding which some sections were copied from(formatting is horrible)
+  - My [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174) on Blue Fire modding which some sections were copied from (formatting is horrible)
   - [Dmgvol's](https://github.com/Dmgvol) [GRGuides](https://github.com/Dmgvol/GR_Guides) which covers a lot of what is covered here (this guide was based on this)
   - [atenfyr's](https://github.com/atenfyr) [astroneer modder's guide](https://docs.google.com/document/d/193p6thlTOWffF-JIeTGrLUHg9Um5i6gwMJaK4kzy9Ik) which is relevant ignoring the astroneer specific parts
   - [Buckminsterfullerene's](https://github.com/Buckminsterfullerene02) BP tutorials for DRG - relevant from 3 onwards
@@ -63,7 +63,7 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [DRG modding](https://discord.gg/3EVUQjz8N5) is the modding server for Deep Rock Galactic - also made in the same version of UE and is very active due to it's native modding support
   - [Code Vein and Scarlet nexus modding](https://discord.gg/VvfvWn9) is very useful for guides
   - [Bloodstained modding](https://discord.gg/b9XBH4f) is the modding server for the Bloodstained games
-  - [Illusory](https://discord.gg/JVgD2w3Npj) is useful for blueprint modding
+  
   Extra discords can be found in [UE modding](https://discord.gg/zVvsE9mEEa)
   
 ### Credits
