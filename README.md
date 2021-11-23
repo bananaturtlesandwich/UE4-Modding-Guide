@@ -20,8 +20,8 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Using UassetGUI](./UAssetGUI.md)
  - [Using UassetAPI](./UAssetAPI.md)
  
-***^ All of these can be used in conjunction with each other so feel free to experiment!***
- - [Blueprint modding]
+***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
+ - [Blueprint modding](./BluePrint.md)
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
