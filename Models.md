@@ -1,4 +1,8 @@
 *It's suggested you know how to use blender for this*
+**Contents**
+- [Meshes](./Models.md#meshes)
+- [Skeletons/rigs](./Models.md#skeletons)
+- [Quick proportion fixes](./Models.md#blender-uexp)
 
 # Meshes
 
@@ -14,6 +18,7 @@
 - Right-click the model when selected and shade smooth
 ![](Images/smooth.png)
 - Once you are satisfied with your creation, export the model as a .fbx with these settings (Most important are Face smoothing and unchecked add leaf bones)
+
 ![](Images/Export.png) 
 
 - Rename it the name of the psk you imported. 
@@ -24,3 +29,13 @@
 - Follow the same steps as normal in packaging except delete all the material uassets and uexps before using unrealpak. This is so the blank materials don't replace the actual ones. The mesh only needs references to the material. It should then work in game
 
 ![](Images/image.png)
+
+# Skeletons
+
+# Blender-UEXP
+
+- For quick fixes of model proportions(or mostly just cursed mods) you can use [Blender-UEXP](https://github.com/AlexP0/Blender_UEXP/releases/) 
+- Install the blender addon from the link in Edit>preferences>install
+- You'll see the menu in the scene tab 
+- Select the .uexp file in this menu
+- Export the LODs
