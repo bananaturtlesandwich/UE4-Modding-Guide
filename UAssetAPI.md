@@ -13,7 +13,7 @@
 - This will generate a simple template in dotnet 4.7.2 that can be used with UassetAPI (if you want to add source control I recommend the github extension by github and then you can add source control from the file dropdown)
 - reference the generated .dlls from the project dropdown and you're ready to start
 - The basic setup you'll want to start in the namespace with will be something like
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
