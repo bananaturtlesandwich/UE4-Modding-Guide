@@ -8,7 +8,7 @@
 - [.profile setup]()
 - [Auto-injector setup]()
 
-
+# UML setup
 - Blueprint mods use a modloader to inject blueprint (Unreal's visual scripting system) into a game
 - This allows addition of custom logic and events
 
