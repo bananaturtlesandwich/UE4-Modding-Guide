@@ -33,3 +33,9 @@
 # Skeletons
 
 # Blender-UEXP
+
+- For quick fixes of model proportions(or mostly just cursed mods) you can use [Blender-UEXP](https://github.com/AlexP0/Blender_UEXP/releases/) 
+- Install the blender addon from the link in Edit>preferences>install
+- You'll see the menu in the scene tab 
+- Select the .uexp file in this menu
+- Export the LODs
