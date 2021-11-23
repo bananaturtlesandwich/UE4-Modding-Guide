@@ -1,6 +1,6 @@
 # Dialogue
 
-This guide will cover using [Kein's serialiser](Tools/UAssetSerialiser.zip) and the [locres extract scripts](Tools/UE4_Locress_Scripts.zip)
+This guide will cover using [Kein's serialiser](Tools/UAssetSerialiser.zip) and the [.locres text tool](https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe)
 
 ***These mods have major compatibility issues but replacement mods in general do anyway***
 
