@@ -1,4 +1,8 @@
 *It's suggested you know how to use blender for this*
+**Contents**
+- [Meshes](./Models.md#meshes)
+- [Skeletons/rigs](./Models.md#skeletons)
+- [Quick proportion fixes](./Models.md#blender-uexp)
 
 # Meshes
 
@@ -25,3 +29,7 @@
 - Follow the same steps as normal in packaging except delete all the material uassets and uexps before using unrealpak. This is so the blank materials don't replace the actual ones. The mesh only needs references to the material. It should then work in game
 
 ![](Images/image.png)
+
+# Skeletons
+
+# Blender-UEXP
