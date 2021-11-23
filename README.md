@@ -16,7 +16,7 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Disabling objects](./Disabling.md)
  - [Editing materials](./Materials.md)
  - [Text and Dialogue](./Dialogue.md)
- - [Replacing levels](./Levels.md) (custom maps)
+ - [Replacing levels](./Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
  - [Using UassetGUI](./UAssetGUI.md)
  - [Using UassetAPI](./UAssetAPI.md)
  
