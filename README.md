@@ -39,7 +39,7 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [Heilos's](https://github.com/kaiheilos) [Asset editor](https://github.com/kaiheilos/Utilities) is an alternative to UassetGUI
   - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) is a free hex editor that allows viewing, editing and searching through unreal engine assets
 ### Dialogue/Translation
-  - [Unreal .locres scripts](Tools/UE4_Locress_Scripts.zip) by swuforce is some scripts that allow editing of localisation files as long as file size is kept(a hex editor like HxD is needed)
+  - [.locres text tool](https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe) is a tool that allows complete editing of a localisation file
   - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
 ### Blueprint modding
   - The [Unreal Modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime
