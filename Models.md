@@ -14,6 +14,7 @@
 - Right-click the model when selected and shade smooth
 ![](Images/smooth.png)
 - Once you are satisfied with your creation, export the model as a .fbx with these settings (Most important are Face smoothing and unchecked add leaf bones)
+
 ![](Images/Export.png) 
 
 - Rename it the name of the psk you imported. 
