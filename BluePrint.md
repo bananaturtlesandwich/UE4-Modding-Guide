@@ -1,11 +1,11 @@
 # Blueprint mods
 **Contents**
 
-- [UML setup]()
+- [UML setup](./BluePrint.md#uml-setup)
 - [Project setup]()
 - [Mod creation]()
 - [Packaging]()
-- [.profile setup]()
+- [.profile setup](./BluePrint.md#configuring-the-profile)
 - [Auto-injector setup]()
 
 # UML setup
@@ -15,14 +15,22 @@
 - Download the [Universal Unreal Modloader](https://github.com/RussellJerome/UnrealModLoader/releases/) by [RusselJ](https://github.com/RussellJerome)
 - This will contain a .exe, some .dlls and some .profile files in the profiles folder
 ![](./Images/modloader.png)
-- If your game does not have a .profile file contained in the release setup instructions are [here](./UMLSetup.md) 
+- If your game does not have a .profile file contained in the release setup instructions are [here](./BluePrint.md#configuring-the-profile) 
 
 - Run the .exe and then run the game to check that everything works fine (only report to `#support` if it's a red error)
 - This should also generate a folder called `LogicMods` in Paks and a folder called `CoreMods` in Content
 
+# Project setup
+- Open the game folder where the Engine folder in located and copy the name of the other folder in that directory
+![](./Images/projectname.png)
+- Now create a new Unreal Engine project with this name
+- In project settings set pak chunking to true and keep use pak file checked
+- Create a folder called `Mods`(remember capitals) and then create a new folder with the name of the mod
+- Now create a new blueprint actor (I normally name it `ModActor`)
+
 # Configuring the .profile
 
-- To set up the .profile file, you will need to know 2 things: the name of the game binary located in `Game store/Game name/Game name/Binaries/Win64` and the version of unreal engine the game runs on 
+- To set up the .profile file, you will need to know 2 things: the name of the game binary located in `Game store/Game name/Game project name/Binaries/Win64` and the version of unreal engine the game runs on 
 (**found by hovering your mouse over the same binary and looking at the version number**)
 ![](./Images/version.png)
 - Copy the BasicExampleGame.profile and rename it to the name of your game binary
