@@ -52,11 +52,11 @@ namespace WhateverYouCalledYourProject
 ```
 You can do checks for certain exports using if statements
 
-e.g ```csharp if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is BytePropertyData byt){}```
+e.g ```if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is BytePropertyData byt){}```
 
 And then do things to the the export byt in this example like
 
-```csharp byt.Value = y.AddNameReference(FString.FromString(Items[19]));```
+```byt.Value = y.AddNameReference(FString.FromString(Items[19]));```
 
 Using this method you can loop through multiple files very quickly to make edits that would have taken ages to do manually with UassetGUI
 
