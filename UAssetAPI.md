@@ -51,9 +51,31 @@ namespace WhateverYouCalledYourProject
 }
 ```
 You can do checks for certain exports using if statements
+
 e.g ``` if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is BytePropertyData byt){}```
 
 And then do things to the the export byt in this example like
+
 ```byt.Value = y.AddNameReference(FString.FromString(Items[19]));```
 
 Using this method you can loop through multiple files very quickly to make edits that would have taken ages to do manually with UassetGUI
+
+Below I will include some code snippets for editing common PropertyData types:
+### Enums
+```
+    static public void RandomiseEnums(string filepath, string endpath, int indexes)
+    {
+        //Load enum
+        UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
+        //Only one export so for loop isn't needed
+        Export baseUs = y.Exports[0];
+        if (baseUs is EnumExport us)
+        {
+            List<Tuple<FName, long>> eh = us.Enum.Names;
+            for (int j = 0; j < indexes; j++)
+            {
+                eh[j] = new Tuple<FName, long>(us.Enum.Names[j].Item1, 2/*Enum index you wish to use*/);
+            }
+        }
+        y.Write(endpath);
+    }```
