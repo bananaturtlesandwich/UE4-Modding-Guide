@@ -112,7 +112,6 @@ static public void RandTransform(string filepath, string endpath)
                         }
                     }
                 }
-                
             }
         }
     }
