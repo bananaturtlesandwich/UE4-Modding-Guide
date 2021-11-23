@@ -52,17 +52,17 @@ namespace WhateverYouCalledYourProject
 ```
 You can do checks for certain exports using if statements
 
-e.g ``` if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is BytePropertyData byt){}```
+e.g ` if(ex.Data[j].Name.Equals(FName.FromString("Item")) && ex.Data[j] is BytePropertyData byt){}`{:.csharp}
 
 And then do things to the the export byt in this example like
 
-```byt.Value = y.AddNameReference(FString.FromString(Items[19]));```
+`byt.Value = y.AddNameReference(FString.FromString(Items[19]));`{:.csharp}
 
 Using this method you can loop through multiple files very quickly to make edits that would have taken ages to do manually with UassetGUI
 
 Below I will include some code snippets for editing common PropertyData types:
 ### Enums
-```
+```csharp
     static public void Enums(string filepath, string endpath, int indexes)//I state the number of indexes because sometimes eh.Count causes an index out of range error
     {
         //Load enum
@@ -82,7 +82,7 @@ Below I will include some code snippets for editing common PropertyData types:
 ```
 
 ### Location
-```
+```csharp
 static public void RandTransform(string filepath, string endpath)
 {
     UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
@@ -119,7 +119,7 @@ static public void RandTransform(string filepath, string endpath)
 }
 ```
 For rotators replace:
-```
+```csharp
 if (data.Name.Equals(FName.FromString("RelativeLocation")) && data is StructPropertyData loc)
 {
     loc.Value = new List<PropertyData>
@@ -132,7 +132,7 @@ if (data.Name.Equals(FName.FromString("RelativeLocation")) && data is StructProp
 }
 ```
 with this:
-```
+```csharp
 if (data.Name.Equals(FName.FromString("RelativeRotation")) && data is StructPropertyData rot)
 {
     rot.Value = new List<PropertyData>
