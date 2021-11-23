@@ -84,64 +84,64 @@ Below I will include some code snippets for editing common PropertyData types:
 ### Location
 ```
 static public void RandTransform(string filepath, string endpath)
+{
+    UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
+    for (int i = 0; i < y.Exports.Count; i++)
+    {
+        if (y.Exports[i] is NormalExport us)
         {
-            UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
-            for (int i = 0; i < y.Exports.Count; i++)
+            for (int j = 0; j < us.Data.Count; j++)
             {
-                if (y.Exports[i] is NormalExport us)
+                if (us.Data[j].Name.Equals(FName.FromString("RootComponent")) && us.Data[j] is ObjectPropertyData ob)
                 {
-                        for (int j = 0; j < us.Data.Count; j++)
+                    //MessageBox.Show(y.Exports[Convert.ToInt32(ob.Value.ToString())].ObjectName.ToString());
+                    if (y.Exports[Convert.ToInt32(ob.Value.ToString())] is NormalExport egg)
+                    {
+                        foreach (var data in egg.Data)
                         {
-                            if (us.Data[j].Name.Equals(FName.FromString("RootComponent")) && us.Data[j] is ObjectPropertyData ob)
+                            if (data.Name.Equals(FName.FromString("RelativeLocation")) && data is StructPropertyData loc)
                             {
-                                //MessageBox.Show(y.Exports[Convert.ToInt32(ob.Value.ToString())].ObjectName.ToString());
-                                if (y.Exports[Convert.ToInt32(ob.Value.ToString())] is NormalExport egg)
+                                loc.Value = new List<PropertyData>
                                 {
-                                    foreach (var data in egg.Data)
+                                    new VectorPropertyData(FName.FromString("Vector"))
                                     {
-                                        if (data.Name.Equals(FName.FromString("RelativeLocation")) && data is StructPropertyData loc)
-                                        {
-                                            loc.Value = new List<PropertyData>
-                                            {
-                                                new VectorPropertyData(FName.FromString("Vector"))
-                                                {
-                                                    Value= new FVector(50,50,50)
-                                                }
-                                            };
-                                        }
+                                        Value= new FVector(50,50,50)
                                     }
-                                }
+                                };
                             }
                         }
                     }
                 }
+                
             }
-            y.Write(endpath);
         }
+    }
+    y.Write(endpath);
+}
 ```
 For rotators replace:
 ```
 if (data.Name.Equals(FName.FromString("RelativeLocation")) && data is StructPropertyData loc)
-                                        {
-                                            loc.Value = new List<PropertyData>
-                                            {
-                                                new RotatorPropertyData(FName.FromString("Vector"))
-                                                {
-                                                    Value= new FVector(50,50,50)
-                                                }
-                                            };
-                                        }
+{
+    loc.Value = new List<PropertyData>
+    {
+        new RotatorPropertyData(FName.FromString("Vector"))
+        {
+            Value= new FVector(50,50,50)
+        }
+    };
+}
 ```
 with this:
 ```
 if (data.Name.Equals(FName.FromString("RelativeRotation")) && data is StructPropertyData rot)
-                                        {
-                                            rot.Value = new List<PropertyData>
-                                            {
-                                                new RotatorPropertyData(FName.FromString("Rotator"))
-                                                {
-                                                    Value= new FRotator(50,50,50)
-                                                }
-                                            };
-                                        }
+{
+    rot.Value = new List<PropertyData>
+    {
+        new RotatorPropertyData(FName.FromString("Rotator"))
+        {
+            Value= new FRotator(50,50,50)
+        }
+    };
+}
 ```
