@@ -6,22 +6,22 @@ This is a port of the steam guide with more detail and better formatting. This g
 **Tools and resources can be found at the bottom**
 
 ### The Basics
- - [Decompressing the pak](./Unpaking.md)
- - [Using UEViewer (Umodel) to view and extract assets](./UEViewer.md)
- - [Configuration and packaging in engine](./Engine.md) (example given is for UI or textures)
- - [Final Paking](./Paking.md)
+ - [Decompressing the pak](./Asset%20Replacement/Unpaking.md)
+ - [Using UEViewer (Umodel) to view and extract assets](./Asset%20Replacement/UEViewer.md)
+ - [Configuration and packaging in engine](./Asset%20Replacement/Engine.md) (example given is for UI or textures)
+ - [Final Paking](./Asset%20Replacement/Paking.md)
  
 ### Specific mod guides
- - [Replacing models](./Models.md)
- - [Disabling objects](./Disabling.md)
- - [Editing materials](./Materials.md)
- - [Text and Dialogue](./Dialogue.md)
- - [Replacing levels](./Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
- - [Using UassetGUI](./UAssetGUI.md)
- - [Using UassetAPI](./UAssetAPI.md)
+ - [Replacing models](./Asset%20Replacement/Models.md)
+ - [Disabling objects](./Uasset%20Editing/Disabling.md)
+ - [Editing materials](./Asset%20Replacement/Materials.md)
+ - [Text and Dialogue](./Asset%20Replacement/Dialogue.md)
+ - [Replacing levels](./Asset%20Replacement/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
+ - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.md)
+ - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.md)
  
 ***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
- - [Blueprint modding](./BluePrint.md)
+ - [Blueprint modding](./Logic%20Mods/BluePrint.md)
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
