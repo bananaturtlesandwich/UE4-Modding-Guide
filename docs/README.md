@@ -6,23 +6,23 @@ This is a port of the steam guide with more detail and better formatting. This g
 **Tools and resources can be found at the bottom**
 
 ### The Basics
- - [Decompressing the pak](./The%20Basics/Unpaking.md)
- - [Using UEViewer (Umodel) to view and extract assets](./The%20Basics/UEViewer.md)
- - [Configuration and packaging in engine](./The%20Basics/Engine.md) (example given is for UI or textures)
- - [Final Paking](./The%20Basics/Paking.md)
+ - [Decompressing the pak](./The%20Basics/Unpaking.html)
+ - [Using UEViewer (Umodel) to view and extract assets](./The%20Basics/UEViewer.html)
+ - [Configuration and packaging in engine](./The%20Basics/Engine.html) (example given is for UI or textures)
+ - [Final Paking](./The%20Basics/Paking.html)
  
 ### Specific mod guides
- - [Replacing models](./Specific%20Guides/Models.md)
- - [Disabling objects](./Specific%20Guides/Disabling.md)
- - [Editing materials](./Specific%20Guides/Materials.md)
- - [Text and Dialogue](./Specific%20Guides/Dialogue.md)
- - [Replacing levels](./Specific%20Guides/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
+ - [Replacing models](./Specific%20Guides/Models.html)
+ - [Disabling objects](./Specific%20Guides/Disabling.html)
+ - [Editing materials](./Specific%20Guides/Materials.html)
+ - [Text and Dialogue](./Specific%20Guides/Dialogue.html)
+ - [Replacing levels](./Specific%20Guides/Levels.html) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
  ##### Uasset Editing
-  - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.md)
-  - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.md)
+  - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.html)
+  - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.html)
  
 ***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
- - [Blueprint modding](./Logic%20Mods/BluePrint.md)
+ - [Blueprint modding](./Logic%20Mods/BluePrint.html)
 # Tools and Resources
  ### General modding  
   - [Umodel](https://www.gildor.org/en/projects/umodel) by [Gildor](https://github.com/gildor2) for The viewing and export of game assets
