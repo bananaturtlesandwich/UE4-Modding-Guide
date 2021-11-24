@@ -12,13 +12,14 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Final Paking](./The%20Basics/Paking.md)
  
 ### Specific mod guides
- - [Replacing models](./The%20Basics/Models.md)
- - [Disabling objects](./Uasset%20Editing/Disabling.md)
- - [Editing materials](./The%20Basics/Materials.md)
- - [Text and Dialogue](./The%20Basics/Dialogue.md)
- - [Replacing levels](./The%20Basics/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
- - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.md)
- - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.md)
+ - [Replacing models](./Specific%20Guides/Models.md)
+ - [Disabling objects](./Specific%20Guides/Disabling.md)
+ - [Editing materials](./Specific%20Guides/Materials.md)
+ - [Text and Dialogue](./Specific%20Guides/Dialogue.md)
+ - [Replacing levels](./Specific%20Guides/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
+ ##### Uasset Editing
+  - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.md)
+  - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.md)
  
 ***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
  - [Blueprint modding](./Logic%20Mods/BluePrint.md)
