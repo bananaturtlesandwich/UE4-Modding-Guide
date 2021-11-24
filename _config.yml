@@ -1,5 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
-logo: "/Images/Umbypet.gif"
 color_scheme: dark
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
