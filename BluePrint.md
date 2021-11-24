@@ -2,11 +2,11 @@
 **Contents**
 
 - [UML setup](./BluePrint.md#uml-setup)
-- [Project setup]()
-- [Mod creation]()
-- [Packaging]()
+- [Project setup](./BluePrint.md#project-setup)
+- [Mod creation](./BluePrint.md#)
+- [Packaging](./BluePrint.md#)
 - [.profile setup](./BluePrint.md#configuring-the-profile)
-- [Auto-injector setup]()
+- [Auto-injector setup](./BluePrint.md#auto-injector-setup)
 
 # UML setup
 - Blueprint mods use a modloader to inject blueprint (Unreal's visual scripting system) into a game
@@ -36,3 +36,9 @@
 - Copy the BasicExampleGame.profile and rename it to the name of your game binary
 - Then set the values according to the instructions using the UE4 version of your game(1 is true and 0 is false)
 - Share the new .profile to the `#profiles` channel in [Russel's Exclusive Disco Club](https://discord.gg/ErTzBGtAUn) so that other's won't have to go through this process
+
+# Auto Injector setup
+- Out of the box, the modloader comes with an auto-injector (instructions are in the README but I'll explain here anyway)
+- Open the ModLoaderInfo.ini and edit the path to where your modloader dll is stored
+- Copy all the files(README isn't needed) to where the game binary is stored (in `Game store/Game name/Game project name/Binaries/Win64`)
+- Run the binary and the modloader should auto-inject into the process (The auto-injector doesn't work for some games annoyingly)
