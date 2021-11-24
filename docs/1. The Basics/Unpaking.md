@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Decompressing the .pak
-parent: Asset Replacement
+parent: The Basics
 nav_order: 1
 ---
 

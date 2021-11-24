@@ -1,3 +1,10 @@
+---
+layout: default
+title: UassetGUI
+parent: Uasset Editing
+nav_order: 2
+---
+
 # UAssetAPI
 
 ***Please note that this may be quite complicated for those new to C# or programming in general as this is object oriented programming***

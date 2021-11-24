@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configuration and Packaging in Engine
-parent: Asset Replacement
+parent: The Basics
 nav_order: 3
 ---
 

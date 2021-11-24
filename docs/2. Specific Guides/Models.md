@@ -1,3 +1,10 @@
+---
+layout: default
+title: Models(WIP)
+parent: Specific Guides
+nav_order: 1
+---
+
 *It's suggested you know how to use blender for this*
 **Contents**
 - [Meshes](./Models.md#meshes)

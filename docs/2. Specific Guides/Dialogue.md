@@ -1,3 +1,10 @@
+---
+layout: default
+title: Text and Dialogue
+parent: Specific Guides
+nav_order: 4
+---
+
 # Dialogue
 
 This guide will cover using [Kein's serialiser](Tools/UAssetSerialiser.zip) and the [.locres text tool](https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe)

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Editing Materials
+parent: Specific Guides
+nav_order: 3
+---
+
 # Materials
 
 **Credits to atenfyr for [UassetGUI](https://github.com/atenfyr/UAssetGUI/releases) FatihG_ for the last method and Dmgvol for the [GRcolorswapper tool](https://github.com/Dmgvol/GR_Guides/blob/main/Tools/GRColorSwapper.zip)**

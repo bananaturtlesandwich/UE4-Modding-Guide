@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blueprint Logic Mods(WIP)
+parent: Logic Mods
+nav_order: 1
+---
+
 # Blueprint mods
 **Contents**
 

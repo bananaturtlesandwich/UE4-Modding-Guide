@@ -1,3 +1,10 @@
+---
+layout: default
+title: UassetGUI
+parent: Uasset Editing
+nav_order: 1
+---
+
 # UAssetGUI
 
 - [UAssetGUI](https://github.com/atenfyr/UAssetGUI) is a powerful tool by [atenfyr](https://github.com/atenfyr) that is a wrapper of UAssetAPI

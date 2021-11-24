@@ -1,3 +1,10 @@
+---
+layout: default
+title: Custom Levels
+parent: Specific Guides
+nav_order: 5
+---
+
 # Level Editing/Replacing
 
 *For Blue Fire, the process is easier for voids as all other environments do not use dynamic lighting*

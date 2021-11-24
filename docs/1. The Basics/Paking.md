@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Final Packaging
-parent: Asset Replacement
+parent: The Basics
 nav_order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Using UEViewer (Umodel) to view and extract assets
-parent: Asset Replacement
+parent: The Basics
 nav_order: 2
 ---
 
