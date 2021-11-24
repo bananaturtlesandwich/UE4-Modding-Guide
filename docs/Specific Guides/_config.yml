@@ -1,2 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
+markdown: GFM
+name: Specific Guides
