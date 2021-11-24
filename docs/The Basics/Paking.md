@@ -1,3 +1,10 @@
+---
+layout: default
+title: Final Packaging
+parent: Asset Replacement
+nav_order: 4
+---
+
 # Final Paking
 
 - Go into the folder where you packaged your mod and copy the Content folder in WindowsNoEditor\\ProjectName into a new folder which your mod will be contained in, for example FaraDrip_P (the _P will be in the pak name and is so the file gets identified as a patch).

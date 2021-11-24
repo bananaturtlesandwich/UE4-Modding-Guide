@@ -1,3 +1,10 @@
+---
+layout: default
+title: Decompressing the .pak
+parent: Asset Replacement
+nav_order: 1
+---
+
 ***Neither BMS scripts or the CMD method seems to work anymore for blue fire so the last method must be used***
 
 # Unpaking 

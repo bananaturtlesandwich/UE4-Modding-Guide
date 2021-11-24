@@ -1,3 +1,10 @@
+---
+layout: default
+title: Using UEViewer (Umodel) to view and extract assets
+parent: Asset Replacement
+nav_order: 2
+---
+
 ***Note that UModel has many more features than viewing and exporting, e.g showing related assets and toggling certain views - see them all using the dropdowns and by pressing H to see the keybinds***
 
 # Umodel

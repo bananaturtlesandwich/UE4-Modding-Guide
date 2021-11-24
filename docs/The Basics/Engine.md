@@ -1,3 +1,10 @@
+---
+layout: default
+title: Configuration and Packaging in Engine
+parent: Asset Replacement
+nav_order: 3
+---
+
 ***While this is an example for a texture mod, the way in which the project is configured is very much the same for each mod***
 
 # Config and packaging

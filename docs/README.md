@@ -6,17 +6,17 @@ This is a port of the steam guide with more detail and better formatting. This g
 **Tools and resources can be found at the bottom**
 
 ### The Basics
- - [Decompressing the pak](./Asset%20Replacement/Unpaking.md)
- - [Using UEViewer (Umodel) to view and extract assets](./Asset%20Replacement/UEViewer.md)
- - [Configuration and packaging in engine](./Asset%20Replacement/Engine.md) (example given is for UI or textures)
- - [Final Paking](./Asset%20Replacement/Paking.md)
+ - [Decompressing the pak](./The%20Basics/Unpaking.md)
+ - [Using UEViewer (Umodel) to view and extract assets](./The%20Basics/UEViewer.md)
+ - [Configuration and packaging in engine](./The%20Basics/Engine.md) (example given is for UI or textures)
+ - [Final Paking](./The%20Basics/Paking.md)
  
 ### Specific mod guides
- - [Replacing models](./Asset%20Replacement/Models.md)
+ - [Replacing models](./The%20Basics/Models.md)
  - [Disabling objects](./Uasset%20Editing/Disabling.md)
- - [Editing materials](./Asset%20Replacement/Materials.md)
- - [Text and Dialogue](./Asset%20Replacement/Dialogue.md)
- - [Replacing levels](./Asset%20Replacement/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
+ - [Editing materials](./The%20Basics/Materials.md)
+ - [Text and Dialogue](./The%20Basics/Dialogue.md)
+ - [Replacing levels](./The%20Basics/Levels.md) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
  - [Using UassetGUI](./Uasset%20Editing/UAssetGUI.md)
  - [Using UassetAPI](./Uasset%20Editing/UAssetAPI.md)
  
