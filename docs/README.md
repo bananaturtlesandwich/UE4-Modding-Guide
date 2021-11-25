@@ -2,12 +2,6 @@
 
 # Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
----
-layout: default
-title: Home
-nav_order: 0
-has_children: false
----
 
 **Tools and resources can be found at the bottom**
 
