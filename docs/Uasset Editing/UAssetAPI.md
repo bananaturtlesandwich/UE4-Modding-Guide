@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UassetGUI
+title: UassetAPI
 parent: Uasset Editing
 nav_order: 2
 ---
