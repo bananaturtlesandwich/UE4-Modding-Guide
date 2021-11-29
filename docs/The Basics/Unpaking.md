@@ -16,7 +16,7 @@ nav_order: 1
 # BMS scripts
 - Download [BMS scripts](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/BMS%20scripts.zip) by Luigi Auriemma and place them into your paks folder
 - Drag the main pak file onto extract-all.bat 
-![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/BMS.png)
+![](Images/BMS.png)
 - If this doesn't work try running the .exes and following the instuctions and it may work
 - if not, then try the next method
 
