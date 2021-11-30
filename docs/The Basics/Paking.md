@@ -12,13 +12,14 @@ nav_order: 4
 - Folder structure is very important for UE4 modding so make sure spellings of the folders are the same as they were when exported
 - Download [Unrealpak](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Tools/UnrealPak.zip) by FluffyQuack and drag the mod folder onto UnrealPak-with-compression.bat
 ![](Images/Pak.png)
+![Pak](https://user-images.githubusercontent.com/71292624/144015541-6179a4c4-18b5-4187-8f7a-1d8d1e0d80ac.png)
 
 - This will create a pak file. make sure the pak file contains a _P at the end of its name and create a folder in C:\Program Files (x86)\Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks called ~mods
 
 (The folder is just to ensure proper load order. The folder can be named anything that starts with a letter after the first letter of the game pak) 
 - Place the pak file in it and run Blue Fire to see if it worked. Hopefully you should find it did.
 
-![](Images/drip.png)
+![drip](https://user-images.githubusercontent.com/71292624/144015578-fa7e09a5-d641-4f25-9292-323db58763bb.PNG)
 
 Guides on more types of mods are coming and can be found in the main [README](./README.md)
 
