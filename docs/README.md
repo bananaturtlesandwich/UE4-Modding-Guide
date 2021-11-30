@@ -3,7 +3,6 @@
 
 *If you wish to use this guide to rip assets out of the game and use them for your own benefit and not to mod, kindly **piss off***
 
-# Blue Fire Modding
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
 
 **Tools and resources can be found at the bottom**
