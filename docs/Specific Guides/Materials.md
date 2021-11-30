@@ -27,7 +27,7 @@ This has no downsides to the other methods. The other methods are here if others
 - Set the version to whatever version of UE your game uses(For Blue Fire it's 4.25)
 - Open the target material and search the exports for parameter values(names can be found in ParameterInfo)
 - These can be changed in any way you wish
-![](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Images/UassetGUI.png)
+!![UassetGUI](https://user-images.githubusercontent.com/71292624/144016439-f4352b67-2518-42e9-9232-3c116a22ef2f.png)
 - File<Save as and recreate the file structure like normal
 - Delete the .bak files (and the .uasset because you only changed values) and package
 
@@ -62,7 +62,8 @@ For automating replacing colours, use Dmgvol's [GRcolorswapper](https://github.c
 - Create a new material and create parameters inside the material for each of the parameters in the props.txt
 - Set them with their default values and names
 - Connect all the parameters to the main node using math nodes (how you do it is not important)
-![](Images/nodes.PNG)
+  ![nodes](https://user-images.githubusercontent.com/71292624/144016480-55def4ce-b85a-47bc-9622-8908aab4aca4.PNG)
+
 
 - Once that is done, save the material and create a material instance of it with the same name as in the game files
 - You can now edit the parameters as you please(enable any desired parameters)
