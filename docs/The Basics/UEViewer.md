@@ -23,4 +23,4 @@ nav_order: 2
 
 ![Capture](https://user-images.githubusercontent.com/71292624/144016034-632f3fb3-05f6-45b0-b672-02d33129de0a.PNG)
 
-# [Next Step](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/blob/main/Engine.md)
+# [Next Step](./Engine.md)
