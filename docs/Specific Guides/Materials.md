@@ -41,12 +41,12 @@ This has no downsides to the other methods. The other methods are here if others
 - Open the .uexp file for the material in a hex editor
 - ctrl+F and search for the value with these settings if in HxD
 
-![](Images/Hxd.png)
+![Hxd](https://user-images.githubusercontent.com/71292624/144016575-b234c644-fed4-459f-bbcf-c25a5b4339d1.png)
 
 - If it's a common number like one, unfortunately you'll have to use trial and error for parameters other than vector (for vector GRcolorswapper can be used)
 - Make your edit in the data inspector and save
 
-![](Images/data%20inspector.png)
+![data inspector](https://user-images.githubusercontent.com/71292624/144016594-a9e96d9f-9c6f-4a0a-afd7-0623261ef379.png)
 
 - Pack as normal
 
