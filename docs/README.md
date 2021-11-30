@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/) ![](https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build)
+[![Discord](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/) ![https://img.shields.io/badge/-View%20on%20Github-success&?style=flat&logo=github](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide)![](https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build)
 
 *If you wish to use this guide to rip assets out of the game and use them for your own benefit and not to mod, kindly **piss off***
 
@@ -9,9 +9,9 @@ This is a port of the steam guide with more detail and better formatting. This g
 
 ### The Basics
  - [Decompressing the pak](./The%20Basics/Unpaking/)
- - [Using UEViewer (Umodel) to view and extract assets](https://bananaturtlesandwich.github.io/Blue-Fire-Modding-Guide/The%20Basics/UEViewer/)
- - [Configuration and packaging in engine](https://bananaturtlesandwich.github.io/Blue-Fire-Modding-Guide/The%20Basics/Engine/) (example given is for UI or textures)
- - [Final Paking](https://bananaturtlesandwich.github.io/Blue-Fire-Modding-Guide/The%20Basics/Paking/)
+ - [Using UEViewer (Umodel) to view and extract assets](./The%20Basics/UEViewer/)
+ - [Configuration and packaging in engine](./The%20Basics/Engine/) (example given is for UI or textures)
+ - [Final Paking](./Blue-Fire-Modding-Guide/The%20Basics/Paking/)
  
 ### Specific mod guides
  - [Replacing models](./Specific%20Guides/Models/)
@@ -20,8 +20,8 @@ This is a port of the steam guide with more detail and better formatting. This g
  - [Text and Dialogue](./Specific%20Guides/Dialogue/)
  - [Replacing levels](./Specific%20Guides/Levels/) (custom maps)-this is thankfully obsolete for blue fire due to the awesome official [void maker](https://store.steampowered.com/app/1793350/Blue_Fire_Void_Maker/)!
  ##### Uasset Editing
-  - [Using UassetGUI](https://bananaturtlesandwich.github.io/Blue-Fire-Modding-Guide/Uasset%20Editing/UAssetGUI/)
-  - [Using UassetAPI](https://bananaturtlesandwich.github.io/Blue-Fire-Modding-Guide/Uasset%20Editing/UAssetAPI/)
+  - [Using UassetGUI](./Uasset%20Editing/UAssetGUI/)
+  - [Using UassetAPI](./Uasset%20Editing/UAssetAPI/)
  
 ***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
  - [Blueprint modding](./Logic%20Mods/BluePrint/)
