@@ -47,4 +47,7 @@ nav_order: 1
 - Install the blender addon from the link in Edit>preferences>install
 - You'll see the menu in the scene tab 
 - Select the .uexp file in this menu
-- Export the LODs
+- Export all the LODs
+- Edit the points in the way you wish
+- Import the LODs from the menu
+- Pak properly
