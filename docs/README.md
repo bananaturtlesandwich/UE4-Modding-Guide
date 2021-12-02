@@ -26,6 +26,8 @@ This is a port of the steam guide with more detail and better formatting. This g
 ***^ All of these can be used in conjunction with each other in the same pak so feel free to experiment!***
  - [Blueprint modding](./Logic%20Mods/BluePrint/)
 
+# [Tools and Resources](./Tools.md)
+
 ### Credits
   - FatihG_ for making cool cosmetic stuff and being patient with me at the start
   - [Buckminsterfullerene](https://github.com/Buckminsterfullerene02) for making the UE modding discord 
