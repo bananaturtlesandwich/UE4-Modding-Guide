@@ -5,8 +5,6 @@
 
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well (Blue Fire doesn't have a big enough modding scene to fascilitate this anyway)
 
-**Tools and resources can be found at the bottom**
-
 ### The Basics
  - [Decompressing the pak](./The%20Basics/Unpaking/)
  - [Using UEViewer (Umodel) to view and extract assets](./The%20Basics/UEViewer/)
@@ -35,4 +33,4 @@ This is a port of the steam guide with more detail and better formatting. This g
   - [atenfyr](https://github.com/atenfyr)/adolescent for making UassetAPI and GUI 
   - [RusselJ](https://github.com/RussellJerome) for making the [modloader](https://github.com/RussellJerome/UnrealModLoader)
   - [Fluffyquack](https://github.com/FluffyQuack) for making tools
-  - [Robi Studios](https://www.robistudios.com/) for making Blue Fire - you guys are awesome!
+  - [Robi Studios](https://www.robistudios.com/) for making [Blue Fire](https://store.steampowered.com/app/1220150/Blue_Fire/) - you guys are awesome!
