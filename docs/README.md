@@ -1,5 +1,5 @@
-# Blue Fire Modding [![Discord](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/) 
-[![](https://img.shields.io/badge/-View%20source%20on%20Github-blue&?logo=github)](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide) ![](https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build)
+# Blue Fire Modding 
+[![Discord](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=flat)](https://discord.gg/q4ydWSG) [![Nexus](https://img.shields.io/badge/Nexus%20mods-Look%20at%20released%20mods-orange)](https://www.nexusmods.com/bluefire/mods/) [![](https://img.shields.io/badge/-View%20source%20on%20Github-blue&?logo=github)](https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide) ![](https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build)
 
 *If you wish to use this guide to rip assets out of the game and use them for your own benefit and not to mod, kindly **piss off***
 
