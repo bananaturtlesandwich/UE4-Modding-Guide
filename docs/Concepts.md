@@ -10,3 +10,6 @@
 - The mods should be place in a mod folder (`~mods` works for every game) to ensure proper load order (so the mods aren't loaded before the main game pak)
 - Paks are loaded alphabetically
 - Mods can also be loaded via other methods such as the [Universal Unreal Mod Loader](https://github.com/RussellJerome/UnrealModLoader)
+### Cooking
+- Before being put in a pak file, assets undergo a process called cooking where the data used by the engine is erased so only the data needed for the game is in the final pak
+- Cooked assets are not able to be edited in the engine however they can be edited through the use of programs such as [UAssetGUI](https://github.com/atenfyr/UAssetGUI)
