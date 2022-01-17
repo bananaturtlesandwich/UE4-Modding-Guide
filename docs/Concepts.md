@@ -1,4 +1,4 @@
-### Pak files
+### .pak files
 - Pak files are essentially archive files that store most of the resources that the game in question requires to run
 - The game's main pak will always be contained in the `Content/Paks` directory
 - Pak files will sometimes be encrypted via AES keys, however these can normally be found easily with GHFear's [AESkeyFinder](https://zenhax.com/viewtopic.php?t=9407&start=20)
@@ -13,3 +13,5 @@
 ### Cooking
 - Before being put in a pak file, assets undergo a process called cooking where the data used by the engine is erased so only the data needed for the game is in the final pak
 - Cooked assets are not able to be edited in the engine however they can be edited through the use of programs such as [UAssetGUI](https://github.com/atenfyr/UAssetGUI)
+### .uasset,.uexp and .ubulk files
+- Asset data is stored in .uasset files both before and after packaging
