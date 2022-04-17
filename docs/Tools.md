@@ -16,10 +16,23 @@
   - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) is a free hex editor that allows viewing, editing and searching through unreal engine assets
 ### Dialogue/Translation
   - [.locres text tool](https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe) is a tool that allows complete editing of a localisation file
-  - [Kein's serialiser](Tools/UAssetSerialiser.zip) which of which use in blue fire is limited to stringtables (*[dotnet 3.0](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.0.0-preview8-windows-x64-installer) is needed for this*). For use reference [this](https://docs.google.com/document/d/1krHKG9T77cfRmIQ90k4H-fy9Vm6vVm8zR6oKAlgDiww/edit)
 ### Blueprint modding
   - The [Unreal Modloader](https://github.com/RussellJerome/UnrealModLoader) is a program by [RusselJ]() that allows injection of custom blueprints at runtime
   - [DRG Parser](https://github.com/Buckminsterfullerene02/DRG-Modding/tree/main/DRGParser) allows parsing of uasset and uexps to make dummying easier
+
+### Assorted libraries
+  ### Rust crates
+  - [uasset](https://docs.rs/uasset)
+  - [unreal unpak](https://docs.rs/rust-unreal-unpak)
+  - [unreal automation tools](https://docs.rs/cargo-uat)
+  ### Python
+  - [PyPakParser](https://pypi.org/project/PyPAKParser/)
+  ### C sharp
+  - [UassetAPI](https://github.com/atenfyr/UAssetAPI)
+  - [UETools](https://github.com/UETools/UETools)
+  - [UnSave](https://www.nuget.org/packages/UnSave)
+  - [UnSave.Extensions](https://www.nuget.org/packages/UnSave.Extensions)
+  - [PakReader](https://www.nuget.org/packages/PakReader/)
 
 # Other Guides
   - My [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174) on Blue Fire modding which some sections were copied from (formatting is horrible)
