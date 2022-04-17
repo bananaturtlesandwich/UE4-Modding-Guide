@@ -1,3 +1,5 @@
+# Core UE4 Modding Concepts
+
 ### .pak files
 - Pak files are essentially archive files that store most of the resources that the game in question requires to run
 - The game's main pak will always be contained in the `Content/Paks` directory
