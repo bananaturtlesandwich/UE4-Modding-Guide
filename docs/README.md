@@ -1,5 +1,5 @@
 # Blue Fire Modding 
-[![](https://img.shields.io/discord/bluefire?color=%237289da&label=Join%20the%20discord%21&style=for-the-badge)](https://discord.gg/bluefire)
+[![](https://img.shields.io/discord/582598044407562240?color=%237289da&label=Join%20the%20discord%21&style=for-the-badge)](https://discord.gg/bluefire)
 [![](https://img.shields.io/badge/Nexus%20page-orange?style=for-the-badge)](https://www.nexusmods.com/bluefire/)
 ![](https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build&style=for-the-badge)
 
