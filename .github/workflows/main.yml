@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout pandocs
+    - name: Checkout guide
       uses: actions/checkout@v2
       with:
         path: Blue-Fire-Modding-Guide
@@ -35,6 +35,7 @@ jobs:
         chmod +x mdbook-linkcheck
 
     - name: Build
+      working-directory: Blue-Fire-Modding-Guide/
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
