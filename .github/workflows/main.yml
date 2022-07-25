@@ -55,7 +55,6 @@ jobs:
       with:
         name: Build output
         path: guide/src/guide
-        if-no-files-found: error
 
   deploy:
     runs-on: ubuntu-latest
