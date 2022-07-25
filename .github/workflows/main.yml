@@ -28,13 +28,8 @@ jobs:
         curl -L -o mdbook-linkcheck.zip "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${MDBOOK_LINKCHECK_VER}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip"
         unzip mdbook-linkcheck.zip mdbook-linkcheck
         chmod +x mdbook-linkcheck
-        
-    - name: Make build dir
-      run: |
-        mkdir guide
 
     - name: Build
-      working-directory: guide
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
@@ -45,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build output
-        path: guide/build
+        path: build
 
   deploy:
     runs-on: ubuntu-latest
@@ -67,7 +62,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: Build output
-        path: guide/build
+        path: build
 
     - name: Deploy
       working-directory: guide/
