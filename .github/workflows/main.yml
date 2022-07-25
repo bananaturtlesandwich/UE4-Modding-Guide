@@ -28,6 +28,10 @@ jobs:
         curl -L -o mdbook-linkcheck.zip "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${MDBOOK_LINKCHECK_VER}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip"
         unzip mdbook-linkcheck.zip mdbook-linkcheck
         chmod +x mdbook-linkcheck
+        
+    - name: Make build dir
+      run: |
+        mkdir guide
 
     - name: Build
       working-directory: guide
