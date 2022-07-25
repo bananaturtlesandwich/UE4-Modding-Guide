@@ -20,7 +20,7 @@ jobs:
     - name: Checkout the guide
       uses: actions/checkout@v2
       with:
-        path: pandocs
+        path:
 
     - name: Install mdbook
       uses: peaceiris/actions-mdbook@v1
@@ -35,7 +35,7 @@ jobs:
         chmod +x mdbook-linkcheck
 
     - name: Build
-      working-directory: pandocs/
+      working-directory: guide/
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build output
-        path: pandocs/docs/pandocs/
+        path: guide/src/guide
         if-no-files-found: error
 
   deploy:
@@ -58,7 +58,7 @@ jobs:
     - name: Checkout Blue-Fire-Modding-Guide/gh-pages
       uses: actions/checkout@v2
       with:
-        path: Blue-Fire-Modding-Guide
+        path: 
         ref: gh-pages
 
     - name: Delete all current files
@@ -69,10 +69,10 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: Build output
-        path: Blue-Fire-Modding-Guide/
+        path: /
 
     - name: Deploy
-      working-directory: Blue-Fire-Modding-Guide/
+      working-directory: /
       run: |
         git config --local user.name "GitHub Action"
         git config --global user.email "spudwitch@gmail.com"
