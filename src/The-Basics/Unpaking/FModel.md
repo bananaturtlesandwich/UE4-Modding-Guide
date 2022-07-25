@@ -1,5 +1,5 @@
 # Fmodel
-- Install [Fmodel](https://fmodel.app/) by Jetbrains and open the pak directly
+- Install [Fmodel](https://fmodel.app/) by the Fmodel team and open the pak directly
 
 ![](../../images/Fmodel.png)
 
