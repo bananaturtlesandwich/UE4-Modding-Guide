@@ -20,7 +20,7 @@ jobs:
     - name: Checkout the guide
       uses: actions/checkout@v2
       with:
-        path: ./
+        path: guide
 
     - name: Install mdbook
       uses: peaceiris/actions-mdbook@v1
@@ -33,9 +33,17 @@ jobs:
         curl -L -o mdbook-linkcheck.zip "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${MDBOOK_LINKCHECK_VER}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip"
         unzip mdbook-linkcheck.zip mdbook-linkcheck
         chmod +x mdbook-linkcheck
+        
+    - name: Cache build dir
+      uses: actions/cache@v2
+      with:
+        path: guide/target/
+        key: ${{ runner.os }}-build-${{ hashFiles('pandocs/Cargo.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-build-
 
     - name: Build
-      working-directory: ./
+      working-directory: guide/
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
@@ -46,7 +54,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build output
-        path: ./src/guide
+        path: guide/src/guide
         if-no-files-found: error
 
   deploy:
@@ -58,21 +66,21 @@ jobs:
     - name: Checkout Blue-Fire-Modding-Guide/gh-pages
       uses: actions/checkout@v2
       with:
-        path: ./
+        path: guide
         ref: gh-pages
 
     - name: Delete all current files
       run: |
-        rm -vrf ./*
+        rm -vrf guide/*
 
     - name: Unpack build
       uses: actions/download-artifact@v2
       with:
         name: Build output
-        path: ./
+        path: guide/
 
     - name: Deploy
-      working-directory: /
+      working-directory: guide/
       run: |
         git config --local user.name "GitHub Action"
         git config --global user.email "spudwitch@gmail.com"
