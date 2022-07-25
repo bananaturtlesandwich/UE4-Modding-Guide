@@ -65,7 +65,7 @@ jobs:
     - name: Checkout Blue-Fire-Modding-Guide/gh-pages
       uses: actions/checkout@v2
       with:
-        path: guide
+        path: Blue-Fire-Modding-Guide
         ref: gh-pages
 
     - name: Delete all current files
