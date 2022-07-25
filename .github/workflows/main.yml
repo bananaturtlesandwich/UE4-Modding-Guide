@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     # Do not run this unless *pushing* to `master`
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
     - name: Checkout Blue-Fire-Modding-Guide/gh-pages
       uses: actions/checkout@v2
