@@ -17,6 +17,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout pandocs
+      uses: actions/checkout@v2
+      with:
+        path: Blue-Fire-Modding-Guide
+    
     - name: Install mdbook
       uses: peaceiris/actions-mdbook@v1
       with:
