@@ -2,7 +2,7 @@
 - Create a folder inside this which is the name of the executable in your game folder
 - Go into the folder where you packaged your mod and copy the Content folder in `WindowsNoEditor\ProjectName` into this folder
 - Folder structure is very important for UE4 modding so make sure spellings of the folders are the same as they were when exported
-- Download [Unrealpak](fluffyquack.com/tools/unrealpak.rar) by FluffyQuack and drag the mod folder onto UnrealPak-with-compression.bat
+- Download [Unrealpak](https://fluffyquack.com/tools/unrealpak.rar) by FluffyQuack and drag the mod folder onto UnrealPak-with-compression.bat
 ![](../../images/Pak.png)
 
 - This will create a pak file. make sure the pak file contains a _P at the end of its name and create a folder in your Paks folder called ~mods
