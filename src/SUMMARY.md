@@ -5,15 +5,18 @@
 ---
 
 - [The Basics](The-Basics/Basics.md)
-    - [Pak Decompression](The-Basics/Unpaking.md)
-    - [Viewing and Extraction](The-Basics/UEViewer.md)
+    - [Pak Decompression Options](The-Basics/Unpaking/Unpaking.md)
+        - [QuickBMS](The-Basics/Unpaking/QuickBMS.md)
+        - [UEViewer/umodel](The-Basics/Unpaking/UEViewer.md)
+        - [FModel](The-Basics/Unpaking/FModel.md)
+        - [Using UnrealPak Directly](The-Basics/Unpaking/UnrealPak.md)
     - [Engine Configuration](The-Basics/Engine.md)
     - [Final Packaging](The-Basics/Paking.md)
 
 ---
 
 # Specific Guides
-- [Replacing models](Specific-Guides/Models.md)
+- [Replacing models]()
 - [Disabling objects](Specific-Guides/Disabling.md)
 - [Editing materials](Specific-Guides/Materials.md)
 - [Text and Dialogue](Specific-Guides/Dialogue.md)
