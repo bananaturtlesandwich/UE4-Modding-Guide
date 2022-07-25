@@ -35,7 +35,7 @@ jobs:
         chmod +x mdbook-linkcheck
 
     - name: Build
-      working-directory: guide/
+      working-directory: 
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build output
-        path: guide/src/guide
+        path: ./src/guide
         if-no-files-found: error
 
   deploy:
@@ -63,13 +63,13 @@ jobs:
 
     - name: Delete all current files
       run: |
-        rm -vrf Blue-Fire-Modding-Guide/*
+        rm -vrf ./*
 
     - name: Unpack build
       uses: actions/download-artifact@v2
       with:
         name: Build output
-        path: /
+        path: 
 
     - name: Deploy
       working-directory: /
