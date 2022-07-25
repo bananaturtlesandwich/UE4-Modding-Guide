@@ -2,7 +2,9 @@
 
 # UEViewer/umodel
 
-- For the next step you need umodel. Install the [program](https://www.gildor.org/en/projects/umodel) and open the folder you extracted the game assets to, in my case BF_Unpaked.
+- Install [umodel](https://www.gildor.org/en/projects/umodel)
+
+- For proper structure, extract assets with [QuickBMS](QuickBMS.md) or [with UnrealPak](UnrealPak.md), however you can open the pak directly with umodel by right-clicking and selecting open with... with umodel
 
 ![](../../images/umodel.png)
 

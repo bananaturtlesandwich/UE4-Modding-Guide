@@ -10,8 +10,12 @@
         - [UEViewer/umodel](The-Basics/Unpaking/UEViewer.md)
         - [FModel](The-Basics/Unpaking/FModel.md)
         - [Using UnrealPak Directly](The-Basics/Unpaking/UnrealPak.md)
-    - [Engine Configuration](The-Basics/Engine.md)
-    - [Final Packaging](The-Basics/Paking.md)
+    - [Unreal Engine](The-Basics/Engine/Engine.md)
+        - [Setting Up](The-Basics/Engine/Setting-Up.md)
+        - [Content Creation](The-Basics/Engine/Creation.md)
+    - [Packaging](The-Basics/Paking/Paking.md)
+        - [Cooking](The-Basics/Paking/Cooking.md)
+        - [Final Packaging](The-Basics/Paking/Final-Paking.md)
 
 ---
 
