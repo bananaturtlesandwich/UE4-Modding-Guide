@@ -1,35 +1,83 @@
-name: Deploy
+name: Build and deploy an updated version of the website
+
 on:
   push:
-    branches:
-      - master
+    paths-ignore:
+      - 'README.md'
+  pull_request:
+    paths-ignore:
+      - 'README.md'
+  schedule:
+    - cron: '42 16 1/7 * *'
+
+env:
+  MDBOOK_LINKCHECK_VER: 0.7.6
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout the guide
+      uses: actions/checkout@v2
       with:
-        fetch-depth: 0
+        path: pandocs
+
     - name: Install mdbook
+      uses: peaceiris/actions-mdbook@v1
+      with:
+        mdbook-version: 0.4.18
+
+    # FIXME: Keep this up to date
+    - name: Install mdbook-linkcheck
+      run: | # `-L` because GitHub performs a redirection
+        curl -L -o mdbook-linkcheck.zip "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${MDBOOK_LINKCHECK_VER}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip"
+        unzip mdbook-linkcheck.zip mdbook-linkcheck
+        chmod +x mdbook-linkcheck
+
+    - name: Build
+      working-directory: pandocs/
+      env:
+        MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
+        MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
       run: |
-        mkdir mdbook
-        curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.14/mdbook-v0.4.14-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook
-        echo `pwd`/mdbook >> $GITHUB_PATH
-    - name: Deploy GitHub Pages
-      run: |
-        # This assumes your book is in the root of your repository.
-        # Just add a `cd` here if you need to change to another directory
-        cd src
         mdbook build
-        git worktree add gh-pages
-        git config user.name "Deploy from CI"
-        git config user.email ""
-        cd gh-pages
-        # Delete the ref to avoid keeping history.
-        git update-ref -d refs/heads/gh-pages
-        rm -rf *
-        mv ../book/* .
-        git add .
-        git commit -m "Deploy $GITHUB_SHA to gh-pages"
-        git push --force -u gh-pages
+
+    - name: Store final build
+      uses: actions/upload-artifact@v2
+      with:
+        name: Build output
+        path: pandocs/docs/pandocs/
+        if-no-files-found: error
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    # Do not run this unless *pushing* to `master`
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    steps:
+    - name: Checkout Blue-Fire-Modding-Guide/gh-pages
+      uses: actions/checkout@v2
+      with:
+        path: Blue-Fire-Modding-Guide
+        ref: gh-pages
+
+    - name: Delete all current files
+      run: |
+        rm -vrf Blue-Fire-Modding-Guide/*
+
+    - name: Unpack build
+      uses: actions/download-artifact@v2
+      with:
+        name: Build output
+        path: Blue-Fire-Modding-Guide/
+
+    - name: Deploy
+      working-directory: Blue-Fire-Modding-Guide/
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --global user.email "spudwitch@gmail.com"
+        git remote -v
+        git branch -v
+        git add -A
+        git commit -am 'Update build'
+        git push -v
