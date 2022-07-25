@@ -1,4 +1,4 @@
-name: Deploy Guide
+name: Deploy website
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
         chmod +x mdbook-linkcheck
 
     - name: Build
-      working-directory: Blue-Fire-Modding-Guide/
+      working-directory: pandocs/
       env:
         MDBOOK_BUILD__CREATE_MISSING: "false" # Prevent creating missing files in SUMMARY.md
         MDBOOK_OUTPUT__LINKCHECK__COMMAND: "../mdbook-linkcheck"
@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build output
-        path: Blue-Fire-Modding-Guide/src/Blue-Fire-Modding-Guide/
+        path: pandocs/docs/pandocs/
         if-no-files-found: error
 
   deploy:
