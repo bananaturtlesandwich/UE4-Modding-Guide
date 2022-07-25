@@ -7,7 +7,6 @@
 This is a port of the steam guide with more detail and better formatting. This guide is intended to be for the benefit of other modding communities as well 
 
 (*Unfortunately Blue Fire doesn't have a big enough modding scene to fascilitate a guide this detailed anyway*)
-
 ### Credits
   - FatihG_ and Fluffyquack for being patient with me at the start
   - [Buckminsterfullerene](https://github.com/Buckminsterfullerene02) for making the UE modding discord and pooling resources

@@ -5,7 +5,7 @@
 ### Content creation
 **I will not cover content creation in this. Just examples.**
 - For this example I will use my Fara discord shirt mod. Here is the original texture for Fara.
-![FaraTexture](https://user-images.githubusercontent.com/71292624/144013420-4a950ba0-0815-47ed-90da-7796aae2a46c.png)
+![FaraTexture]()
 
 - I have now changed it so that the model will have the desired change
 ![FaraTexture](https://user-images.githubusercontent.com/71292624/144013468-f53bd02f-390e-438d-ba8d-af243066a69d.png)
