@@ -23,4 +23,4 @@ jobs:
         uses: XAMPPRocky/deploy-mdbook@v1
         with:
           # The GitHub token for deploying mdbook.
-          token: guide deploy key
+          token: ${{ secrets.GITHUB_TOKEN }}
