@@ -24,3 +24,5 @@ jobs:
         with:
           # The github reposistory in `owner/repo` format.
           repository: bananaturtlesandwich/Blue-Fire-Modding-Guide
+          # The GitHub token for deploying mdbook.
+          token: guide
