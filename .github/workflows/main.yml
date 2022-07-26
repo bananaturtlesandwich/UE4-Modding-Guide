@@ -1,26 +1,10 @@
-name: Deploy website
-
-on:
-  push:
-    paths-ignore:
-      - 'README.md'
-  pull_request:
-    paths-ignore:
-      - 'README.md'
-  schedule:
-    - cron: '42 16 1/7 * *'
-
-env:
-  MDBOOK_LINKCHECK_VER: 0.7.6
-
+name: Deploy mdBook
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy MDBook
-        # You may pin to the exact commit or the version.
-        # uses: XAMPPRocky/deploy-mdbook@508792eaea5817897ccdfc1b5b7047dbe9ec5a5c
-        uses: XAMPPRocky/deploy-mdbook@v1
+      - uses: actions/checkout@v2
+      - uses: XAMPPRocky/deploy-mdbook@v1.1
         with:
-          # The GitHub token for deploying mdbook.
-          token: ${{ secrets.GITHUB_TOKEN }}
+            token: ${{ secrets.GITHUB_TOKEN }}
