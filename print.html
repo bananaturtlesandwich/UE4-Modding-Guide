@@ -1,0 +1,818 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>UE4 Modding Guide</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home Page</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="The-Basics/Basics.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="The-Basics/Unpaking/Options.html"><strong aria-hidden="true">1.1.</strong> Pak Decompression Options</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="The-Basics/Unpaking/QuickBMS.html"><strong aria-hidden="true">1.1.1.</strong> QuickBMS</a></li><li class="chapter-item expanded "><a href="The-Basics/Unpaking/UnrealPak.html"><strong aria-hidden="true">1.1.2.</strong> Using UnrealPak Directly</a></li><li class="chapter-item expanded "><a href="The-Basics/Unpaking/UEViewer.html"><strong aria-hidden="true">1.1.3.</strong> UEViewer/umodel</a></li><li class="chapter-item expanded "><a href="The-Basics/Unpaking/FModel.html"><strong aria-hidden="true">1.1.4.</strong> FModel</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Unreal Engine</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="The-Basics/Engine/Setting-Up.html"><strong aria-hidden="true">1.2.1.</strong> Setting Up</a></li><li class="chapter-item expanded "><a href="The-Basics/Engine/Creation.html"><strong aria-hidden="true">1.2.2.</strong> Content Creation</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Packaging</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="The-Basics/Paking/Cooking.html"><strong aria-hidden="true">1.3.1.</strong> Cooking</a></li><li class="chapter-item expanded "><a href="The-Basics/Paking/Final-Paking.html"><strong aria-hidden="true">1.3.2.</strong> Final Packaging</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><li class="part-title">Specific Guides</li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Replacing models</div></li><li class="chapter-item expanded "><a href="Specific-Guides/Disabling.html"><strong aria-hidden="true">3.</strong> Disabling objects</a></li><li class="chapter-item expanded "><a href="Specific-Guides/Materials.html"><strong aria-hidden="true">4.</strong> Editing materials</a></li><li class="chapter-item expanded "><a href="Specific-Guides/Dialogue.html"><strong aria-hidden="true">5.</strong> Text and Dialogue</a></li><li class="chapter-item expanded "><a href="Specific-Guides/Levels.html"><strong aria-hidden="true">6.</strong> Level Editing</a></li><li class="chapter-item expanded "><a href="Specific-Guides/UAssetGUI.html"><strong aria-hidden="true">7.</strong> Using UAssetGUI</a></li><li class="chapter-item expanded "><a href="Specific-Guides/UAssetAPI.html"><strong aria-hidden="true">8.</strong> Using UAssetAPI</a></li><li class="chapter-item expanded "><a href="Logic-Mods/Blueprint.html"><strong aria-hidden="true">9.</strong> Blueprint modding</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Misc.</li><li class="chapter-item expanded "><a href="Concepts/Concepts.html"><strong aria-hidden="true">10.</strong> Core UE4 Modding Concepts</a></li><li class="chapter-item expanded "><a href="Tools/Tools.html"><strong aria-hidden="true">11.</strong> Tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Tools/Pakers.html"><strong aria-hidden="true">11.1.</strong> Pakers/Unpakers</a></li><li class="chapter-item expanded "><a href="Tools/Pak-Explorers.html"><strong aria-hidden="true">11.2.</strong> Pak Explorers</a></li><li class="chapter-item expanded "><a href="Tools/Asset-Editors.html"><strong aria-hidden="true">11.3.</strong> UAsset Editors</a></li><li class="chapter-item expanded "><a href="Tools/Locres-Editors.html"><strong aria-hidden="true">11.4.</strong> Locres Editors</a></li></ol></li><li class="chapter-item expanded "><a href="Resources/Resources.html"><strong aria-hidden="true">12.</strong> Resources</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Resources/Discords.html"><strong aria-hidden="true">12.1.</strong> Discords</a></li><li class="chapter-item expanded "><a href="Resources/Other-Guides.html"><strong aria-hidden="true">12.2.</strong> Other Guides</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">UE4 Modding Guide</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/bananaturtlesandwich/UE4-Modding-Guide" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><a href="https://discord.gg/bluefire"><img src="https://img.shields.io/discord/582598044407562240?color=%237289da&amp;label=Join%20the%20Blue%20Fire%20discord%21&amp;style=for-the-badge" alt="" /></a>
+<a href="https://www.nexusmods.com/bluefire/"><img src="https://img.shields.io/badge/Nexus%20page-orange?style=for-the-badge&amp;logo=data:image/png;base64,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" alt="" /></a>
+<img src="https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build&amp;style=for-the-badge" alt="" /></p>
+<ul>
+<li><em>If you wish to use this guide to rip assets out of a game and use them for your own benefit and not to mod, kindly <strong>piss off</strong></em></li>
+<li>This is a general guide for Unreal Engine 4 game modding that uses Blue Fire for examples</li>
+<li>(<em>Unfortunately Blue Fire doesn't have a big enough modding scene to fascilitate a guide this detailed anyway</em>)</li>
+</ul>
+<h3 id="credits"><a class="header" href="#credits">Credits</a></h3>
+<ul>
+<li>FatihG_ and Fluffyquack for being patient with me at the start</li>
+<li><a href="https://github.com/Buckminsterfullerene02">Buckminsterfullerene</a> for making the UE modding discord and pooling resources</li>
+<li><a href="https://github.com/atenfyr">atenfyr/adolescent</a> for making UassetAPI and GUI </li>
+<li><a href="https://github.com/RussellJerome">RusselJ</a> for making the <a href="https://github.com/RussellJerome/UnrealModLoader">modloader</a></li>
+<li><a href="https://github.com/Dmgvol">Dmgvol</a> for making cool things</li>
+<li><a href="https://www.robistudios.com/">Robi Studios</a> for making <a href="https://store.steampowered.com/app/1220150/Blue_Fire/">Blue Fire</a> - you guys are awesome!</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-basics"><a class="header" href="#the-basics">The Basics</a></h1>
+<p>This section walks you through the basic creation of a patch mod which includes unpaking of the game's pak file, engine setup and packaging and installation of content</p>
+<p>You will need to know:</p>
+<ul>
+<li>The file path to your game - if on steam go to your game in your library and navigate to Properties &gt; Local Files &gt; Browse (By default it is <code>C:\Program Files (x86)\Steam\steamapps\common\Your game</code>)</li>
+<li>The name of your game's project file - this is the name of the folder in your game's file path that isn't Engine
+<img src="The-Basics/projectname.png" alt="" /></li>
+<li>The file path to your game's executable - <code>Game file path/Game name/Binaries/Win64</code></li>
+<li>The file path to where your game's content is stored - <code>Game file path/Game name/Content</code></li>
+<li>the version of unreal your game uses - right-click the .exe &gt; Properties &gt; Details and the version of unreal is the File Version which should be in the format 4.XX.X - we only care abount the 4.XX because minor versions don't fundamentally change how content is configured
+<img src="The-Basics/version.png" alt="" /></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pak-decompression-options"><a class="header" href="#pak-decompression-options">Pak Decompression Options</a></h1>
+<p><strong>Keep in mind that there are more options found in <a href="The-Basics/Unpaking/../../Tools/Pakers.html">Pakers/Unpakers</a> and <a href="The-Basics/Unpaking/../../Tools/Pak-Explorers.html">Pak Explorers</a></strong></p>
+<ul>
+<li>The following section illustrates a few different options for unpacking a pak archive for your game</li>
+<li>This section doesn't have to be done sequentially</li>
+<li>Your game's Paks folder should be located in your game's content folder
+<ul>
+<li>If this folder doesn't exist or there is no pak files to unpack and only raw assets then you can completely skip this section</li>
+<li>If there are multiple pak files then your game has split its paks into chunks - This shouldn't affect the process significantly</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quickbms"><a class="header" href="#quickbms">QuickBMS</a></h1>
+<p><strong>This method will extract all of the raw assets out of the pak file so if you don't have space then I suggest <a href="The-Basics/Unpaking/UEViewer.html">umodel</a> or <a href="The-Basics/Unpaking/FModel.html">fmodel</a>. The advantage of this is immediate access to a file system with correct folder structure</strong></p>
+<p><strong>With this method you will also still need to extract usable data from the raw assets using <a href="The-Basics/Unpaking/UEViewer.html">umodel</a> or <a href="The-Basics/Unpaking/FModel.html">fmodel</a></strong></p>
+<ul>
+<li>Download <a href="https://aluigi.altervista.org/papers/quickbms.zip">QuickBMS</a> by Luigi Auriemma and <a href="https://aluigi.altervista.org/bms/unreal_tournament_4.bms">unrealtournament.bms</a> and place them into your paks folder</li>
+<li>If the total file size of your pak/s is below 4 GB drag the bms file onto quickbms.exe (1,000,000 KB is one GB)</li>
+<li>If not use quickbms_4gb_files.exe
+<img src="The-Basics/Unpaking/QuickBMS.png" alt="" /></li>
+<li>A window should pop up asking for the archive</li>
+<li>Select your pak file that should look like <code>Game Project Name-WindowsNoEditor.pak</code> (if your game uses chunks type * into the text box which will extract the whole folder)</li>
+<li>Now select the output folder (this can be wherever)</li>
+<li>If compatible then the file should commence extraction
+<img src="The-Basics/Unpaking/QuickBMS-Extraction.png" alt="" /></li>
+<li>If your pak is incompatible, try one of the other methods</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="using-unrealpak-directly"><a class="header" href="#using-unrealpak-directly">Using UnrealPak directly</a></h1>
+<p><strong>This method will extract all of the raw assets out of the pak file so if you don't have space then I suggest <a href="The-Basics/Unpaking/UEViewer.html">umodel</a> or <a href="The-Basics/Unpaking/FModel.html">fmodel</a>. The advantage of this is immediate access to a file system with correct folder structure</strong></p>
+<p><strong>With this method you will also still need to extract usable data from the raw assets using <a href="The-Basics/Unpaking/UEViewer.html">umodel</a> or <a href="The-Basics/Unpaking/FModel.html">fmodel</a></strong></p>
+<p><strong>With this method you will also need the version of unreal engine installed that your game uses - you will need this later on anyway</strong></p>
+<p><strong>This method does not support extracting all pak chunks at once</strong></p>
+<p><a href="https://youtu.be/AElxgCRXF64">Here's a video detailing the process</a></p>
+<p>However here's a summary if some things are unclear:</p>
+<ul>
+<li>Open command prompt and drag unrealpak.exe into command prompt. This .exe should be stored in UE_4.XX(whatever version you have)\Engine\Binaries\Win64\UnrealPak.exe</li>
+</ul>
+<p><img src="The-Basics/Unpaking/unrealpak.png" alt="" /></p>
+<ul>
+<li>Then put a space and drag the pak file into command prompt</li>
+<li>Put a space and type -Extract</li>
+<li>Put a space after that and enter the directory of the folder you want the assets to be extracted to</li>
+<li>Press enter and the game files should extract to the folder</li>
+<li>If there is an error, remember that syntax in important- here's mine for blue fire as reference
+<code>&quot;C:\Program Files (x86)\UE_4.25\Engine\Binaries\Win64\UnrealPak.exe&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\Blue Fire\Blue Fire\Content\Paks&quot; -Extract C:\modding\BF_Unpaked</code></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ueviewerumodel"><a class="header" href="#ueviewerumodel">UEViewer/umodel</a></h1>
+<p><strong>Note that UModel has many more features than just exporting, e.g showing related assets and toggling certain views - press H to see these</strong></p>
+<ul>
+<li>Install <a href="https://www.gildor.org/en/projects/umodel">umodel</a> by Gildor</li>
+<li>Launch the program and you should be greeted with the startup screen
+<img src="The-Basics/Unpaking/umodel-Startup.png" alt="" /></li>
+<li>If you extracted the raw assets using <a href="The-Basics/Unpaking/QuickBMS.html">QuickBMS</a> or <a href="The-Basics/Unpaking/UnrealPak.html">UnrealPak</a> then set the folder to the output folder you used using the <code>...</code> button and proceed</li>
+<li>If not then set the folder to your Paks folder and proceed</li>
+<li>You should now have access to your game's file system </li>
+<li><strong>If you got an AES key prompt click <a href="The-Basics/Unpaking/AES-Keys.html">here</a></strong>
+<img src="The-Basics/Unpaking/umodel-Browse.png" alt="" /></li>
+<li>Open a package by double clicking it </li>
+<li>The first time you should get a pop-up asking for the version of the package - enter the version of unreal engine your game uses
+<img src="The-Basics/Unpaking/umodel-Popup.png" alt="" /></li>
+<li>Find something you want to replace or modify - <em>start with something simple (I'll be using a texture)</em></li>
+<li>Use ctrl + x or the tools tab to export and it will export to the directory selected</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fmodel"><a class="header" href="#fmodel">Fmodel</a></h1>
+<ul>
+<li>Install <a href="https://fmodel.app/">Fmodel</a> by the Fmodel team</li>
+<li>Launch the program and you should be greeted with the startup screen
+<img src="The-Basics/Unpaking/Fmodel.png" alt="" /></li>
+<li>Set the folder to your Paks folder using the <code>...</code> button and proceed</li>
+<li>Click on Settings and change the Unreal Version to your game's version (it will have to restart if changed)</li>
+<li>If there is red dot next to a pak file, go to Directory &gt; AES and read <a href="The-Basics/Unpaking/AES-Keys.html">this</a></li>
+<li>Find something you want to replace or modify - <em>start with something simple (I'll be using a texture)</em></li>
+<li>Right click the chosen package and export</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up"><a class="header" href="#setting-up">Setting up</a></h1>
+<ul>
+<li>Install the version of Unreal Engine 4 that your game uses from the <a href="https://www.unrealengine.com/en-US/download">Epic Games Launcher</a></li>
+<li>Open up UE4 and create a blank game project with no starter content (it's unnecessary)
+<img src="The-Basics/Engine/NewProject.png" alt="" />
+<img src="The-Basics/Engine/NewProject2.png" alt="" /></li>
+<li>Go into edit &gt; project settings and uncheck use pak file
+<img src="The-Basics/Engine/Unchecking.png" alt="" /></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="content-creation"><a class="header" href="#content-creation">Content Creation</a></h1>
+<h3 id="content-creation-1"><a class="header" href="#content-creation-1">Content creation</a></h3>
+<p><strong>I will not cover content creation in this. Just examples.</strong></p>
+<ul>
+<li>
+<p>For this example I will use my Fara discord shirt mod</p>
+</li>
+<li>
+<p>In this mod I modified the texture for Fara so that it had a discord logo
+<img src="The-Basics/Engine/FaraTex.png" alt="" /></p>
+</li>
+<li>
+<p>Recreate the folder structure that was obtained from exporting the assets - in my case the folders went Game\BlueFire\NPC\Fara\Textures so I must create the folders like this:
+<img src="The-Basics/Engine/UE4.png" alt="" /></p>
+</li>
+<li>
+<p>Press ctrl+shift+s to save all</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cooking"><a class="header" href="#cooking">Cooking</a></h1>
+<p>You can cook the assets in 2 ways:</p>
+<p>either:</p>
+<ul>
+<li>Navigate to File&gt;package project&gt;Windows(64-bit)</li>
+<li>Select the folder you want to cook the mod into</li>
+</ul>
+<p>or:</p>
+<ul>
+<li>Navigate to File&gt;Cook Content For Windows</li>
+<li>It will output to the Saved folder</li>
+</ul>
+<p>The first time it will take longer to build</p>
+<div style="break-before: page; page-break-before: always;"></div><ul>
+<li>
+<p>Create a folder named <code>The name of your mod_P</code> (the <code>_P</code> clarifies it as a patch so that it overwrites original game content)</p>
+</li>
+<li>
+<p>Create a folder the name of your Game's project name</p>
+</li>
+<li>
+<p>Go into the folder where you packaged your mod and copy the Content folder in <code>WindowsNoEditor\ProjectName</code> into this folder</p>
+</li>
+<li>
+<p>Folder structure is very important for UE4 modding so make sure spellings of the folders are the same as they were when exported</p>
+</li>
+<li>
+<p>Download <a href="https://fluffyquack.com/tools/unrealpak.rar">Unrealpak</a> by FluffyQuack and drag the mod folder onto UnrealPak-with-compression.bat
+<img src="The-Basics/Paking/Packaging.png" alt="" /></p>
+</li>
+<li>
+<p>This will create a pak file - Make sure the pak file contains a _P at the end of its name</p>
+</li>
+<li>
+<p>Create a folder in your Paks folder called ~mods</p>
+</li>
+</ul>
+<p>(The folder is just to ensure proper load order. The folder can be named anything that starts with a letter after the first letter of the game pak) </p>
+<ul>
+<li>Place the pak file in it and run your game to see if it worked. Hopefully you should find it did.</li>
+</ul>
+<p><img src="The-Basics/Paking/drip.png" alt="" /></p>
+<p>If the mod worked, give yourself a pat on the back! </p>
+<div style="break-before: page; page-break-before: always;"></div><p><strong>Credits to Dmgvol I basically just rewrote their guide</strong></p>
+<p><em>If file extensions aren't showing in file explorer enable them in the view settings</em></p>
+<h1 id="disabling-objects"><a class="header" href="#disabling-objects">Disabling Objects</a></h1>
+<p>This is a useful way to disable actors in game - can be used for stuff like removing annoying enemies and effects among other things </p>
+<ul>
+<li>Open umodel and find the content you would like to disable (In my case the main menu castle)</li>
+</ul>
+<p><img src="Specific-Guides/../images/Reference.png" alt="" /></p>
+<ul>
+<li>Recreate the observed folder structure like you would in final paking (because we are dealing with cooked uassets)</li>
+</ul>
+<p><em>A useful shortcut for creating new folders is ctrl+shift+n and you can enter the name and press enter to go inside the folder</em></p>
+<ul>
+<li>
+<p>Create a blank text document with the same name as the uasset you want to disable and change the file extension to .uasset
+<img src="Specific-Guides/../images/Structure.png" alt="" /></p>
+</li>
+<li>
+<p>Package the folder, place in mod folder and run the game
+<img src="Specific-Guides/../images/NoCastle.png" alt="" /></p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="materials"><a class="header" href="#materials">Materials</a></h1>
+<p><strong>Credits to atenfyr for <a href="https://github.com/atenfyr/UAssetGUI/releases">UassetGUI</a> and FatihG_ for the last method</strong></p>
+<p>For pretty much everything, you can hex edit a material</p>
+<p>If you wish to enable parameters from the parent material then the <a href="Specific-Guides/./Materials.html#in-engine-method">in engine method</a> must be used</p>
+<p><strong>Methods</strong></p>
+<p><a href="Specific-Guides/./Materials.html#convenient-method">Convenient Method</a></p>
+<p><a href="Specific-Guides/./Materials.html#manual-method">Manual Method</a></p>
+<p><a href="Specific-Guides/./Materials.html#in-engine-method">In Engine Method</a></p>
+<h3 id="convenient-method"><a class="header" href="#convenient-method">Convenient Method</a></h3>
+<p>This has no downsides to the other methods. The other methods are here if others wish to know them.</p>
+<ul>
+<li>Download <a href="https://github.com/atenfyr/UAssetGUI/releases">UassetGUI</a> by atenfyr</li>
+<li>Set the version to whatever version of UE your game uses(For Blue Fire it's 4.25)</li>
+<li>Open the target material and search the exports for parameter values(names can be found in ParameterInfo)</li>
+<li>These can be changed in any way you wish
+<img src="Specific-Guides/../images/UassetGUI.png" alt="" /></li>
+<li>File&lt;Save as and recreate the file structure like normal</li>
+<li>Delete the .bak files (and the .uasset because you only changed values) and package</li>
+</ul>
+<h3 id="in-engine-method"><a class="header" href="#in-engine-method">In engine method</a></h3>
+<ul>
+<li>
+<p>There is also an alternate method for editing material instances in engine that I will put here for the sake of documentation</p>
+</li>
+<li>
+<p>First export the material instance you wish to modify normally using umodel</p>
+</li>
+<li>
+<p>Create a blank UE4 project (remember to untick use pak file) and create the appropriate folders for the material</p>
+</li>
+<li>
+<p>Create a new material and create parameters inside the material for each of the parameters in the props.txt</p>
+</li>
+<li>
+<p>Set them with their default values and names</p>
+</li>
+<li>
+<p>Connect all the parameters to the main node using math nodes (how you do it is not important)
+<img src="Specific-Guides/../images/nodes.png" alt="" /></p>
+</li>
+<li>
+<p>Once that is done, save the material and create a material instance of it with the same name as in the game files</p>
+</li>
+<li>
+<p>You can now edit the parameters as you please(enable any desired parameters)</p>
+</li>
+<li>
+<p>Once you are happy with the changes, save and package the project</p>
+</li>
+<li>
+<p>Package as normal except remove the parent material assets in final paking so that the parent material does not overwrite the actual parent material</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="dialogue"><a class="header" href="#dialogue">Dialogue</a></h1>
+<p>This guide will cover using the <a href="https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe">.locres text tool</a></p>
+<p><em><strong>These mods have major compatibility issues but replacement mods in general do anyway</strong></em>
+If the text you want to modify is not contained in these you will have to use the <a href="https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe">.locres text tool</a></p>
+<ul>
+<li>Run the executable and select the .locres file located in localisation</li>
+<li>This will generate a .txt containing all of the dialogue in the game</li>
+<li>Make any changes you wish </li>
+<li>Once you are done convert the .txt back to .locres using the executable</li>
+<li>Pack the file with the right file structure and your changes will be saved</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="level-editingreplacing"><a class="header" href="#level-editingreplacing">Level Editing/Replacing</a></h1>
+<p><em>For Blue Fire, the process is easier for voids as all other environments do not use dynamic lighting</em>
+<em>The process is basically the same as adding any level in unreal engine</em></p>
+<ul>
+<li>First export the level model using umodel</li>
+<li>Open in your 3d software of choice and start editing/ replacing content</li>
+<li>If there also a model for damage zones then import that too</li>
+<li>All collision will have to be done manually(In blender, to make collision you must put UCX_<em>corresponding model</em>_<em>collision number</em>(if you put collision all in one model then it will be merged in engine))</li>
+<li>When adding collision use shapes with no inward sloping faces(cuboids and triangular prisms)</li>
+<li>Alternatively, you could turn on advanced collision in engine for convenience at the cost of extra processing needed for its calculation or add collision in the model viewer by turning on collision view</li>
+<li>Set up a UE4 project(turn off use pak file) and import the course model into the proper folders</li>
+<li>Link materials and material instances like normal</li>
+<li>Save content and package</li>
+</ul>
+<p>For editing other things in the level/map parse the umap file using <a href="https://github.com/Buckminsterfullerene02/DRG-Modding/tree/main/DRGParser">DRGParser</a> and you can view all the names and their location in the umap among other things</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="uassetgui"><a class="header" href="#uassetgui">UAssetGUI</a></h1>
+<ul>
+<li>
+<p><a href="https://github.com/atenfyr/UAssetGUI">UAssetGUI</a> is a powerful tool by <a href="https://github.com/atenfyr">atenfyr</a> that is a wrapper of UAssetAPI</p>
+</li>
+<li>
+<p>It allows the editing of unreal engine 4 assets through an intuitive user interface</p>
+</li>
+<li>
+<p>This skips having to dummy assets like materials just to change values that are already in the .uasset</p>
+</li>
+<li>
+<p><strong>However for larger-scale mods such as my randomiser, <a href="https://github.com/atenfyr/UAssetAPI">UassetAPI</a> may be able to suit your needs better</strong></p>
+</li>
+<li>
+<p>First, download the .exe and prerequisite .dlls from <a href="https://github.com/atenfyr/UAssetGUI/releases">this page</a>(It needs dotnet to run)</p>
+</li>
+<li>
+<p>Extract a .uasset and .uexp using Fmodel's export function or umodel's save packages function</p>
+</li>
+<li>
+<p>Right-click any .uasset(include the associated .uexp inside the same folder) and click &quot;open with&quot;</p>
+</li>
+<li>
+<p>You can then create an association with uassetGUI by finding it in the pop-up and checking the &quot;always open files of this type with&quot; checkbox</p>
+</li>
+<li>
+<p>You can now see the exports and their data in the file - such as parameters of a material or the enum index of an item in an enum</p>
+</li>
+<li>
+<p>You can now edit these logically and save it to a separate file using save as or ctrl+shift+s or save to the same file using save or ctrl+s</p>
+</li>
+<li>
+<p>You can now recreate the file structure and pak and it should work as expected</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="uassetapi"><a class="header" href="#uassetapi">UAssetAPI</a></h1>
+<p><em><strong>Please note that this may be quite complicated for those new to C# or programming in general as this is object oriented programming</strong></em></p>
+<ul>
+<li>
+<p><a href="https://github.com/atenfyr/UAssetAPI">UassetAPI</a> is a C# API made by <a href="https://github.com/atenfyr">atenfyr</a> that allows extensive editing of unreal engine 4 assets</p>
+</li>
+<li>
+<p>The main advantage of this API over UAssetGUI is that with a little C# experience, very impressive edits can be made to .umaps and .uassets very quickly</p>
+</li>
+<li>
+<p>This will be mostly done through iteration</p>
+</li>
+<li>
+<p>First download the <a href="https://github.com/atenfyr/UAssetAPI">UassetAPI source code</a> using github desktop or as a .zip file</p>
+</li>
+<li>
+<p>Then open the .sln in visual studio(Make sure dotnet 4.7.2 SDK and compiler are installed for visual studio) and build UassetAPI</p>
+</li>
+<li>
+<p>This will generate some .dlls in UassetAPI's debug folder which we can reference in our visual studio project</p>
+</li>
+<li>
+<p>Set up a visual studio project from a template (for applications I use a winforms template and for general .uasset editing I use the command line interface)</p>
+</li>
+<li>
+<p>This will generate a simple template in dotnet 4.7.2 that can be used with UassetAPI (if you want to add source control I recommend the github extension by github and then you can add source control from the file dropdown)</p>
+</li>
+<li>
+<p>reference the generated .dlls from the project dropdown and you're ready to start</p>
+</li>
+<li>
+<p>The basic setup you'll want to start in the namespace with will be something like</p>
+</li>
+</ul>
+<pre><code class="language-csharp">using System;
+using System.Collections.Generic;
+using System.Linq;
+using UAssetAPI;
+
+namespace WhateverYouCalledYourProject
+{
+    class Program
+   {
+      static void Main(string[] args)
+      {
+        static public void RandTransform(string filepath, string endpath)//I make this a function so it's callable for multiple uassets
+        {
+            Uasset y=new Uasset(filepath,UE4Version./*Put the corresponding version-intellisense will give you some suggestions*/)
+            MessageBox.Show($&quot;Data preserved:{(y.VerifyBinaryEquality() ? &quot;yes&quot; : &quot;no&quot;)}&quot;);
+            //checks if data has been parsed properly. If it has not then report it to atenfyr using his issue templates here:
+            //https://github.com/atenfyr/UAssetAPI/issues/new?assignees=&amp;labels=&amp;template=bug_report.md&amp;title=
+            //for loop loops through exports(alternatively use a foreach loop)
+            for (int i = 0; i &lt; y.Exports.Count; i++)
+            {
+                Export export=y.Exports[i];
+                if (export is NormalExport ex)
+                {
+                    //loop through subcategories to find whatever you're looking for
+                    for (int j = 0; j &lt; ex.Data.Count; j++)
+                    {
+                        //do whatever you want to the subcategories
+                    }
+                }
+            }
+            y.Write(endpath); //remember to do this otherwise your edits will not be saved
+        }
+      }
+   }
+}
+</code></pre>
+<p>You can do checks for certain exports using if statements</p>
+<p>e.g <code>if(ex.Data[j].Name.Equals(FName.FromString(&quot;Item&quot;)) &amp;&amp; ex.Data[j] is BytePropertyData byt){}</code></p>
+<p>And then do things to the the export byt in this example like</p>
+<p><code>byt.Value = y.AddNameReference(FString.FromString(Items[19]));</code></p>
+<p>Using this method you can loop through multiple files very quickly to make edits that would have taken ages to do manually with UassetGUI</p>
+<p>Below I will include some code snippets for editing common PropertyData types:</p>
+<h3 id="enums"><a class="header" href="#enums">Enums</a></h3>
+<pre><code class="language-csharp">    static public void Enums(string filepath, string endpath, int indexes)//I state the number of indexes because sometimes eh.Count causes an index out of range error
+    {
+        //Load enum
+        UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
+        //Only one export so for loop isn't needed
+        Export baseUs = y.Exports[0];
+        if (baseUs is EnumExport us)
+        {
+            List&lt;Tuple&lt;FName, long&gt;&gt; eh = us.Enum.Names;
+            for (int j = 0; j &lt; indexes; j++)
+            {
+                eh[j] = new Tuple&lt;FName, long&gt;(us.Enum.Names[j].Item1, 2/*Enum index you wish to use*/);
+            }
+        }
+        y.Write(endpath);
+    }
+</code></pre>
+<h3 id="location"><a class="header" href="#location">Location</a></h3>
+<pre><code class="language-csharp">static public void RandTransform(string filepath, string endpath)
+{
+    UAsset y = new UAsset(filepath, UE4Version.VER_UE4_25);
+    for (int i = 0; i &lt; y.Exports.Count; i++)
+    {
+        if (y.Exports[i] is NormalExport us)
+        {
+            for (int j = 0; j &lt; us.Data.Count; j++)
+            {
+                if (us.Data[j].Name.Equals(FName.FromString(&quot;RootComponent&quot;)) &amp;&amp; us.Data[j] is ObjectPropertyData ob)
+                {
+                    //MessageBox.Show(y.Exports[Convert.ToInt32(ob.Value.ToString())].ObjectName.ToString());
+                    if (y.Exports[Convert.ToInt32(ob.Value.ToString())] is NormalExport egg)
+                    {
+                        foreach (var data in egg.Data)
+                        {
+                            if (data.Name.Equals(FName.FromString(&quot;RelativeLocation&quot;)) &amp;&amp; data is StructPropertyData loc)
+                            {
+                                loc.Value = new List&lt;PropertyData&gt;
+                                {
+                                    new VectorPropertyData(FName.FromString(&quot;Vector&quot;))
+                                    {
+                                        Value= new FVector(50,50,50)
+                                    }
+                                };
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    y.Write(endpath);
+}
+</code></pre>
+<p>For rotators replace:</p>
+<pre><code class="language-csharp">if (data.Name.Equals(FName.FromString(&quot;RelativeLocation&quot;)) &amp;&amp; data is StructPropertyData loc)
+{
+    loc.Value = new List&lt;PropertyData&gt;
+    {
+        new RotatorPropertyData(FName.FromString(&quot;Vector&quot;))
+        {
+            Value= new FVector(50,50,50)
+        }
+    };
+}
+</code></pre>
+<p>with this:</p>
+<pre><code class="language-csharp">if (data.Name.Equals(FName.FromString(&quot;RelativeRotation&quot;)) &amp;&amp; data is StructPropertyData rot)
+{
+    rot.Value = new List&lt;PropertyData&gt;
+    {
+        new RotatorPropertyData(FName.FromString(&quot;Rotator&quot;))
+        {
+            Value= new FRotator(50,50,50)
+        }
+    };
+}
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blueprint-mods"><a class="header" href="#blueprint-mods">Blueprint mods</a></h1>
+<p><strong>Contents</strong></p>
+<ul>
+<li><a href="Logic-Mods/./Blueprint.html#uml-setup">UML setup</a></li>
+<li><a href="Logic-Mods/./Blueprint.html#project-setup">Project setup</a></li>
+<li><a href="Logic-Mods/./Blueprint.html#">Mod creation</a></li>
+<li><a href="Logic-Mods/./Blueprint.html#">Packaging</a></li>
+<li><a href="Logic-Mods/./Blueprint.html#configuring-the-profile">.profile setup</a></li>
+<li><a href="Logic-Mods/./Blueprint.html#auto-injector-setup">Auto-injector setup</a></li>
+</ul>
+<h1 id="uml-setup"><a class="header" href="#uml-setup">UML setup</a></h1>
+<ul>
+<li>
+<p>Blueprint mods use a modloader to inject blueprint (Unreal's visual scripting system) into a game</p>
+</li>
+<li>
+<p>This allows addition of custom logic and events</p>
+</li>
+<li>
+<p>Download the <a href="https://github.com/RussellJerome/UnrealModLoader/releases/">Universal Unreal Modloader</a> by <a href="https://github.com/RussellJerome">RusselJ</a></p>
+</li>
+<li>
+<p>This will contain a .exe, some .dlls and some .profile files in the profiles folder
+<img src="Logic-Mods/../images/modloader.png" alt="" /></p>
+</li>
+<li>
+<p>If your game does not have a .profile file contained in the release setup instructions are <a href="Logic-Mods/./Blueprint.html#configuring-the-profile">here</a> </p>
+</li>
+<li>
+<p>Run the .exe and then run the game to check that everything works fine (only report to <code>#support</code> if it's a red error)</p>
+</li>
+<li>
+<p>This should also generate a folder called <code>LogicMods</code> in Paks and a folder called <code>CoreMods</code> in Content</p>
+</li>
+</ul>
+<h1 id="project-setup"><a class="header" href="#project-setup">Project setup</a></h1>
+<ul>
+<li>Open the game folder where the Engine folder in located and copy the name of the other folder in that directory
+<img src="Logic-Mods/../images/projectname.png" alt="" /></li>
+<li>Now create a new Unreal Engine project with this name</li>
+<li>In project settings set pak chunking to true and keep use pak file checked</li>
+<li>Create a folder called <code>Mods</code>(remember capitals) and then create a new folder with the name of the mod</li>
+<li>Now create a new blueprint actor (I normally name it <code>ModActor</code>)</li>
+</ul>
+<h1 id="configuring-the-profile"><a class="header" href="#configuring-the-profile">Configuring the .profile</a></h1>
+<ul>
+<li>To set up the .profile file, you will need to know 2 things: the name of the game binary located in <code>Game store/Game name/Game project name/Binaries/Win64</code> and the version of unreal engine the game runs on 
+(<strong>found by hovering your mouse over the same binary and looking at the version number</strong>)
+<img src="Logic-Mods/../images/version.png" alt="" /></li>
+<li>Copy the BasicExampleGame.profile and rename it to the name of your game binary</li>
+<li>Then set the values according to the instructions using the UE4 version of your game(1 is true and 0 is false)</li>
+<li>Share the new .profile to the <code>#profiles</code> channel in <a href="https://discord.gg/ErTzBGtAUn">Russel's Exclusive Disco Club</a> so that other's won't have to go through this process</li>
+</ul>
+<h1 id="auto-injector-setup"><a class="header" href="#auto-injector-setup">Auto Injector setup</a></h1>
+<ul>
+<li>Out of the box, the modloader comes with an auto-injector (instructions are in the README but I'll explain here anyway)</li>
+<li>Open the ModLoaderInfo.ini and edit the path to where your modloader dll is stored</li>
+<li>Copy all the files(README isn't needed) to where the game binary is stored (in <code>Game store/Game name/Game project name/Binaries/Win64</code>)</li>
+<li>Run the binary and the modloader should auto-inject into the process (The auto-injector doesn't work for some games annoyingly)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="core-ue4-modding-concepts"><a class="header" href="#core-ue4-modding-concepts">Core UE4 Modding Concepts</a></h1>
+<h3 id="pak-files"><a class="header" href="#pak-files">.pak files</a></h3>
+<ul>
+<li>Pak files are essentially archive files that store most of the resources that the game in question requires to run (think differently structured .zip files)</li>
+<li>The game's main pak will always be contained in the <code>Content/Paks</code> directory</li>
+<li>Pak files will sometimes be encrypted via AES keys, however these can be easilyfound  with <a href="https://zenhax.com/viewtopic.php?t=9407&amp;start=20">AESkeyFinder</a></li>
+<li>Pak files can also be splitted into chunks for a bit of extra security</li>
+<li>Pak files are normally able to be viewed with <a href="https://www.gildor.org/en/projects/umodel">UEViewer</a> or <a href="https://fmodel.app/">Fmodel</a></li>
+</ul>
+<h3 id="mod-loading"><a class="header" href="#mod-loading">Mod Loading</a></h3>
+<ul>
+<li>Traditional mods are loaded as pak files in the same directory as the main game pak (these pak files are created using a tool such as <a href="https://fluffyquack.com/tools/unrealpak.rar">unrealpak</a>)</li>
+<li>The content inside these paks files will just be content that has been created and then cooked using the same version of unreal as the game in question</li>
+<li>These mods will likely need a <code>_P</code> at the end of their name to remove the mount point of the pak and clarify it as a patch so that it overwrites original game content</li>
+<li>The mods should be place in a mod folder (<code>~mods</code> works for every game) to ensure proper load order (so the main game pak doesn't overwrite the mod's content)</li>
+<li>Paks are loaded alphabetically in each directory</li>
+<li>Mods can also be loaded via modloader frameworks such as the <a href="https://github.com/RussellJerome/UnrealModLoader">Unreal Mod Loader</a> (a tool that allows the execution of any arbitrary blueprint code) and <a href="https://github.com/UE4SS/UE4SS">UE4SS</a> (a tool that allows Lua scripting via reflection)</li>
+</ul>
+<h3 id="cooking-1"><a class="header" href="#cooking-1">Cooking</a></h3>
+<ul>
+<li>Before being put in a pak file, assets undergo a process called cooking where the data used by the engine is erased so only the data needed for the game is in the final pak</li>
+<li>Cooked assets are not able to be edited in the engine however they can be edited through the use of programs such as <a href="https://github.com/atenfyr/UAssetGUI">UAssetGUI</a> or <a href="https://github.com/kaiheilos/Utilities">Asset Editor</a></li>
+</ul>
+<h3 id="uassetumapuexp-and-ubulk-files"><a class="header" href="#uassetumapuexp-and-ubulk-files">.uasset,.umap,.uexp and .ubulk files</a></h3>
+<ul>
+<li>Data is stored in .uasset or .umap files both before and after packaging(.umap files are only used for levels), however after cooking the file structure is different from the structure beforehand</li>
+<li>If the event driven loader is used by the game (introduced around version 4.15) then the cooked file is also split up into the .uasset and the .uexp for faster loading</li>
+<li>In the above case the .uasset/.umap file defines the structure of the asset while the associated .uexp holds the data</li>
+<li>In some cases where more external data is required a .ubulk file is generated which stores this external data such as baked lightmaps for levels</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tools"><a class="header" href="#tools">Tools</a></h1>
+<p>This section is dedicated to listing down tools helpful in Unreal Engine 4 modding</p>
+<h3 id="blueprint-modding"><a class="header" href="#blueprint-modding">Blueprint modding</a></h3>
+<ul>
+<li>The <a href="https://github.com/RussellJerome/UnrealModLoader">Unreal Modloader</a> is a program by <a href="Tools/">RusselJ</a> that allows the spawning of custom blueprint code at runtime</li>
+</ul>
+<h3 id="assorted-libraries"><a class="header" href="#assorted-libraries">Assorted libraries</a></h3>
+<h3 id="rust-crates"><a class="header" href="#rust-crates">Rust crates</a></h3>
+<ul>
+<li><a href="https://docs.rs/uasset">uasset</a></li>
+<li><a href="https://docs.rs/rust-unreal-unpak">unreal unpak</a></li>
+<li><a href="https://docs.rs/cargo-uat">unreal automation tools</a></li>
+</ul>
+<h3 id="python"><a class="header" href="#python">Python</a></h3>
+<ul>
+<li><a href="https://pypi.org/project/PyPAKParser/">PyPakParser</a></li>
+</ul>
+<h3 id="c-sharp"><a class="header" href="#c-sharp">C sharp</a></h3>
+<ul>
+<li><a href="https://github.com/atenfyr/UAssetAPI">UassetAPI</a></li>
+<li><a href="https://github.com/UETools/UETools">UETools</a></li>
+<li><a href="https://www.nuget.org/packages/UnSave">UnSave</a></li>
+<li><a href="https://www.nuget.org/packages/UnSave.Extensions">UnSave.Extensions</a></li>
+<li><a href="https://www.nuget.org/packages/PakReader/">PakReader</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pakersunpakers"><a class="header" href="#pakersunpakers">Pakers/Unpakers</a></h1>
+<p>These are tools that are capable of unpaking or creating pak archives</p>
+<ul>
+<li>
+<p><a href="https://fluffyquack.com/tools/unrealpak.rar">unrealpak scripts</a> by <a href="https://github.com/FluffyQuack">Fluffyquack</a> which allows creation of compressed pak files</p>
+</li>
+<li>
+<p><a href="https://github.com/panzi/u4pak">u4pak</a> by <a href="https://github.com/panzi">panzi</a> which can also mount, list and check pak files</p>
+</li>
+<li>
+<p><a href="https://github.com/panzi/rust-u4pak">rust-u4pak</a> by <a href="https://github.com/panzi">panzi</a> which is an alternate version which doesn't require installing python as it is written in rust</p>
+</li>
+<li>
+<p><a href="https://github.com/Vilsol/ue4pak">ue4pak</a> by <a href="https://github.com/Vilsol">Vilsol</a> which also allows outputting the class trees of pak files</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pak-explorers"><a class="header" href="#pak-explorers">Pak Explorers</a></h1>
+<p>These are tools capable of parsing a game's pak file and allowing the display and export of game files contained inside</p>
+<ul>
+<li><a href="https://www.gildor.org/en/projects/umodel">Umodel</a> by <a href="https://github.com/gildor2">Gildor</a> is the most reliable and fast, allowing loading of both loose and paked files as well as a command line</li>
+<li><a href="https://fmodel.app/">Fmodel</a> by the fmodel team allows more extensive support for certain formats such as sound files and allows export of (irreversibly) json-serialised assets - also has more customisation options</li>
+<li><a href="https://github.com/bananaturtlesandwich/UnrealPakViewer">UnrealPakViewer</a> by <a href="https://github.com/jashking">jashking</a> allows powerful filtering of pak file contents however can only export to json and csv (linked to my repo for now as I'm waiting for my pull request for the guide translation to be accepted)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="asset-editors"><a class="header" href="#asset-editors">Asset Editors</a></h1>
+<p>These are tools able to parse and edit cooked .uasset and .umap files</p>
+<ul>
+<li><a href="https://github.com/atenfyr/UAssetAPI">UAssetAPI</a> by <a href="https://github.com/atenfyr">atenfyr</a> is an API that can read and modify UE4 game assets via C# scripting and reversible .json export - is brilliant for large scale edits or automation</li>
+<li><a href="https://github.com/atenfyr/UAssetGUI/releases">UAssetGUI</a> by <a href="https://github.com/atenfyr">atenfyr</a> is more friendly than coding with uassetAPI due its interface (also has dark mode :p)</li>
+<li><a href="https://github.com/kaiheilos">Heilos's</a> <a href="https://github.com/kaiheilos/Utilities">Asset editor</a> is an alternative to UAssetGUI</li>
+<li><a href="https://github.com/DarthPointer/DAUM">DAUM</a> by <a href="https://github.com/DarthPointer">Drillboy Jenkins</a> is a CLI program written using UAssetAPI with a lot of flexibility</li>
+<li><a href="https://github.com/craigmc08/drg-editor">DRGEditor</a> by <a href="https://github.com/craigmc08">craigmc08</a> is another alternative that is more specific to Deep Rock Galactic</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="locres-editors"><a class="header" href="#locres-editors">Locres Editors</a></h1>
+<p>These are tools that can edit localisation files</p>
+<ul>
+<li><a href="https://github.com/amrshaheen61/UE4LocalizationsTool">UE4LocalizationsTool</a> by <a href="https://github.com/amrshaheen61">amr shaheen</a> allows edits in program or via reversible .txt export</li>
+<li><a href="https://cdn.discordapp.com/attachments/775093920915914794/836699867920859207/unreal_locres_texttool.exe">locres editor</a> (unknown author) that allows edits via reversible .txt export</li>
+<li><a href="https://github.com/akintos/UnrealLocres">UnrealLocres</a> by <a href="https://github.com/akintos">akintos</a> is CLI program that allows edits via reversible .txt export</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="resources"><a class="header" href="#resources">Resources</a></h1>
+<p>These are other sources of information and support for you!</p>
+<p>These resources have served me well throughout my own UE modding journeys and some even helped in putting this guide together</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="discords"><a class="header" href="#discords">Discords</a></h1>
+<p><em>in order of relevance</em></p>
+<ul>
+<li><a href="https://discord.gg/bluefire">Blue Fire</a> is the official server for blue fire! There is a modding channel and a tools and resources channel which is basically this section of the guide</li>
+<li><a href="https://discord.gg/zVvsE9mEEa">UE modding</a> is a small server aiming to pull together and gather tools and knowledge of UE modding - good if you want extra tools or more advanced questions</li>
+<li><a href="https://discord.gg/3EVUQjz8N5">DRG modding</a> is the modding server for Deep Rock Galactic - also made in the same version of UE and is very active due to it's native modding support</li>
+<li><a href="https://discord.gg/eZRz3Q5">Ghostrunner modding</a> is the combined modding and speedrunning server for Ghostrunner</li>
+<li><a href="https://discord.gg/VvfvWn9">Code Vein and Scarlet nexus modding</a> is very useful for guides</li>
+<li><a href="https://discord.gg/b9XBH4f">Bloodstained modding</a> is the modding server for the Bloodstained games</li>
+</ul>
+<p>Extra discords can be found in <a href="https://discord.gg/zVvsE9mEEa">UE modding</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="other-guides"><a class="header" href="#other-guides">Other Guides</a></h1>
+<ul>
+<li>My <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2564366174">steam guide</a> on Blue Fire modding which some sections were copied from (formatting is horrible)</li>
+<li><a href="https://github.com/Dmgvol">Dmgvol's</a> <a href="https://github.com/Dmgvol/GR_Guides">GRGuides</a> which covers a lot of what is covered here (this guide was based on this)</li>
+<li><a href="https://github.com/atenfyr">atenfyr's</a> <a href="https://docs.google.com/document/d/193p6thlTOWffF-JIeTGrLUHg9Um5i6gwMJaK4kzy9Ik">astroneer modder's guide</a> which is relevant ignoring the astroneer specific parts</li>
+<li><a href="https://github.com/Buckminsterfullerene02">Buckminsterfullerene's</a> BP tutorials for DRG - relevant from 3 onwards</li>
+<li><a href="https://github.com/Buckminsterfullerene02/DRG-Modding/">DRG modding</a> is a collection of DRG guides and tools by <a href="https://github.com/Buckminsterfullerene02">Buckminsterfullerene</a></li>
+<li><a href="https://www.youtube.com/channel/UCRg7RCAoE_3jjibix9Ggwaw/featured">GHFear's</a> BP guides - specific to RusselJ's modloader</li>
+<li><a href="https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/">Spyro Reignited</a> modding guide</li>
+<li><a href="https://docs.ficsit.app/satisfactory-modding/latest/index.html">Satisfactory modding guide</a> is specific, but a lot can be learnt from it</li>
+<li><a href="https://docs.unrealengine.com/4.27/en-US/">UE4 documentation</a> is useful for those newer to the engine</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>
