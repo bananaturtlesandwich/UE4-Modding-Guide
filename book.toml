@@ -3,9 +3,9 @@ authors = ["bananaturtlesandwich/spuds"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Blue Fire Modding Guide"
+title = "UE4 Modding Guide"
 
 [output.html]
 default-theme = "navy"
-git-repository-url = "https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide"
-edit-url-template = "https://github.com/bananaturtlesandwich/Blue-Fire-Modding-Guide/edit/master/{path}"
+git-repository-url = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide"
+edit-url-template = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide/edit/master/{path}"
