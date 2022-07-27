@@ -1,6 +1,8 @@
 # Pakers/Unpakers
 These are tools that are capable of unpaking or creating pak archives
 
+- [QuickBMS](https://aluigi.altervista.org/papers/quickbms.zip) by Luigi Auriemma and [unrealtournament.bms](https://aluigi.altervista.org/bms/unreal_tournament_4.bms) allow for fast unpaking of pak files
+
 - [unrealpak scripts](https://fluffyquack.com/tools/unrealpak.rar) by [Fluffyquack](https://github.com/FluffyQuack) which allows creation of compressed pak files
 
 - [u4pak](https://github.com/panzi/u4pak) by [panzi](https://github.com/panzi) which can also mount, list and check pak files

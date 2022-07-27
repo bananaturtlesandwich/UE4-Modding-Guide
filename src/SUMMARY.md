@@ -1,9 +1,10 @@
 # Summary
 
-[Home Page](README.md)
+[Home Page](Home.md)
 
 ---
 
+# Starting out
 - [The Basics](The-Basics/Basics.md)
     - [Pak Decompression Options](The-Basics/Unpaking/Options.md)
         - [QuickBMS](The-Basics/Unpaking/QuickBMS.md)
@@ -17,8 +18,14 @@
         - [Cooking](The-Basics/Paking/Cooking.md)
         - [Final Packaging](The-Basics/Paking/Final-Paking.md)
 
----
+- [Core UE4 Modding Concepts](Concepts/Concepts.md)
+    - [Pak files](Concepts/Paks.md)
+    - [Mod Loading](Concepts/Loading.md)
+    - [Cooking](Concepts/Cooking.md)
+    - [Unreal files](Concepts/Files.md)
+    - [Dummying](Concepts/Dummying.md)
 
+---
 # Specific Guides
 - [Replacing models]()
 - [Disabling objects](Specific-Guides/Disabling.md)
@@ -31,8 +38,6 @@
 
 ---
 # Misc.
-
-- [Core UE4 Modding Concepts](Concepts/Concepts.md) 
 - [Tools](Tools/Tools.md)
     - [Pakers/Unpakers](Tools/Pakers.md)
     - [Pak Explorers](Tools/Pak-Explorers.md)

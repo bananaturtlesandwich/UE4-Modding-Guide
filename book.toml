@@ -8,4 +8,4 @@ title = "UE4 Modding Guide"
 [output.html]
 default-theme = "navy"
 git-repository-url = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide"
-edit-url-template = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide/edit/master/{path}"
+edit-url-template = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide/edit/main/{path}"
