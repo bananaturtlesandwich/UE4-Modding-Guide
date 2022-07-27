@@ -1,0 +1,3 @@
+# Cooking
+- Before being put in a pak file, assets undergo a process called cooking where the data used by the engine is erased so only the data needed for the game is in the final pak
+- Cooked assets are not able to be edited in the engine however they can be edited through the use of programs such as [UAssetGUI](https://github.com/atenfyr/UAssetGUI) or [Asset Editor](https://github.com/kaiheilos/Utilities)
