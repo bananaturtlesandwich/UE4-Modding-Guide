@@ -5,11 +5,11 @@
 ---
 
 - [The Basics](The-Basics/Basics.md)
-    - [Pak Decompression Options]()
+    - [Pak Decompression Options](The-Basics/Unpaking/Options.md)
         - [QuickBMS](The-Basics/Unpaking/QuickBMS.md)
+        - [Using UnrealPak Directly](The-Basics/Unpaking/UnrealPak.md)
         - [UEViewer/umodel](The-Basics/Unpaking/UEViewer.md)
         - [FModel](The-Basics/Unpaking/FModel.md)
-        - [Using UnrealPak Directly](The-Basics/Unpaking/UnrealPak.md)
     - [Unreal Engine]()
         - [Setting Up](The-Basics/Engine/Setting-Up.md)
         - [Content Creation](The-Basics/Engine/Creation.md)
@@ -32,7 +32,7 @@
 ---
 # Misc.
 
-- [Core UE4 Modding Concepts](Concepts/Concepts.md)
+- [Core UE4 Modding Concepts](Concepts/Concepts.md) 
 - [Tools](Tools/Tools.md)
     - [Pakers/Unpakers](Tools/Pakers.md)
     - [Pak Explorers](Tools/Pak-Explorers.md)
