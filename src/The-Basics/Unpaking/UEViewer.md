@@ -1,18 +1,16 @@
-***Note that UModel has many more features than viewing and exporting, e.g showing related assets and toggling certain views - see them all using the dropdowns and by pressing H to see the keybinds***
-
 # UEViewer/umodel
+**Note that UModel has many more features than just exporting, e.g showing related assets and toggling certain views - press H to see these**
 
 - Install [umodel](https://www.gildor.org/en/projects/umodel) by Gildor
-
-- For proper structure, extract assets with [QuickBMS](QuickBMS.md) or [with UnrealPak](UnrealPak.md), however you can open the pak directly with umodel by right-clicking and selecting open with... > umodel location/umodel.exe
-![](../../images/umodel.png)
-
-- With this you have access to the game files.
-
-![](../../images/umodel2.png)
-
-- You can explore the game files and find something you want to replace or modify. Open a package by double clicking it. You should get a pop-up asking for the version of the package - enter your game's version
-
-- Find a package you would like to replace and view it. ctrl + x to export or export by using the tools pop-down. (here are my export preferences)
-
-![](../../images/umodel3.png)
+- Launch the program and you should be greeted with the startup screen
+![](umodel-Startup.png)
+- If you extracted the raw assets using [QuickBMS](QuickBMS.md) or [UnrealPak](UnrealPak.md) then set the folder to the output folder you used using the `...` button and proceed
+- If not then set the folder to your Paks folder and proceed
+- You should now have access to your game's file system 
+- **If you got an AES key prompt click [here](AES-Keys.md)**
+![](umodel-Browse.png)
+- Open a package by double clicking it 
+- The first time you should get a pop-up asking for the version of the package - enter the version of unreal engine your game uses
+![](umodel-Popup.png)
+- Find something you want to replace or modify - *start with something simple (I'll be using a texture)*
+-  Use ctrl + x or the tools tab to export and it will export to the directory selected
