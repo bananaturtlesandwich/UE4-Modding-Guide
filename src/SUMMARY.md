@@ -27,7 +27,9 @@
 
 ---
 # Specific Guides
-- [Replacing models]()
+- [Models]()
+    - [Meshes](Specific-Guides/Models/Meshes.md)
+    - [Skeletons/Rigs](Specific-Guides/Models/Rigs.md)
 - [Disabling objects](Specific-Guides/Disabling.md)
 - [Editing materials](Specific-Guides/Materials.md)
 - [Text and Dialogue](Specific-Guides/Dialogue.md)
