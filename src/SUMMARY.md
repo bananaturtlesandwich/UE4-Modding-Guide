@@ -18,7 +18,7 @@
         - [Cooking](The-Basics/Paking/Cooking.md)
         - [Final Packaging](The-Basics/Paking/Final-Paking.md)
 
-- [Core UE4 Modding Concepts](Concepts/Concepts.md)
+- [Core UE4 Modding Concepts]()
     - [Pak files](Concepts/Paks.md)
     - [Mod Loading](Concepts/Loading.md)
     - [Cooking](Concepts/Cooking.md)
@@ -36,11 +36,11 @@
 - [Level Editing](Specific-Guides/Levels.md)
 - [Using UAssetGUI](Specific-Guides/UAssetGUI.md)
 - [Using UAssetAPI](Specific-Guides/UAssetAPI.md)
-- [Blueprint modding](Logic-Mods/Blueprint.md)
+- [Blueprint modding](Specific-Guides/Logic-Mods/Blueprint.md)
 
 ---
-# Misc.
-- [Tools](Tools/Tools.md)
+# Tools and Resources
+- [Tools]()
     - [Pakers/Unpakers](Tools/Pakers.md)
     - [Pak Explorers](Tools/Pak-Explorers.md)
     - [UAsset Editors](Tools/Asset-Editors.md)
