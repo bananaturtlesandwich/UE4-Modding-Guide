@@ -6,6 +6,6 @@ src = "src"
 title = "UE4 Modding Guide"
 
 [output.html]
-default-theme = "navy"
+default-theme = "coal"
 git-repository-url = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide"
 edit-url-template = "https://github.com/bananaturtlesandwich/UE4-Modding-Guide/edit/main/{path}"
