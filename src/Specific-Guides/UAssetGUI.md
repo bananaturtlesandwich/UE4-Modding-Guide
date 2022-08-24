@@ -4,7 +4,6 @@
 - It allows the editing of unreal engine 4 assets through an intuitive user interface
 - This skips having to dummy assets like materials just to change values that are already in the .uasset
 - **However for larger-scale mods such as my randomiser, [UassetAPI](https://github.com/atenfyr/UAssetAPI) may be able to suit your needs better**
-
 - First, download the .exe and prerequisite .dlls from [this page](https://github.com/atenfyr/UAssetGUI/releases)(It needs dotnet to run)
 - Extract a .uasset and .uexp using Fmodel's export function or umodel's save packages function
 - Right-click any .uasset(include the associated .uexp inside the same folder) and click "open with"

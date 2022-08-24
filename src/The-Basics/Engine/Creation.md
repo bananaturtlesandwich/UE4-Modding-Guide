@@ -2,6 +2,7 @@
 ### Content creation
 **I will not cover content creation in this. Just examples.**
 - For this example I will use my Fara discord shirt mod
+
 - In this mod I modified the texture for Fara so that it had a discord logo
 ![](FaraTex.png)
 

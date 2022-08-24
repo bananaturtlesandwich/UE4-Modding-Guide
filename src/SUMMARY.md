@@ -27,16 +27,24 @@
 
 ---
 # Specific Guides
-- [Models]()
-    - [Meshes](Specific-Guides/Models/Meshes.md)
-    - [Skeletons/Rigs](Specific-Guides/Models/Rigs.md)
-- [Disabling objects](Specific-Guides/Disabling.md)
-- [Editing materials](Specific-Guides/Materials.md)
+- [Models (Whole section is WIP)]()
+    - [Meshes]()
+    - [Skeletons]()
+- [Disabling objects](Specific-Guides/Disabling/Disabling.md)
+- [Materials]()
+    - [Via UAssetGUI](Specific-Guides/Materials/UAssetGUI.md)
+    - [In Engine](Specific-Guides/Materials/Engine.md)
 - [Text and Dialogue](Specific-Guides/Dialogue.md)
 - [Level Editing](Specific-Guides/Levels.md)
 - [Using UAssetGUI](Specific-Guides/UAssetGUI.md)
-- [Using UAssetAPI](Specific-Guides/UAssetAPI.md)
+- [Using UAssetAPI](Specific-Guides/UAssetAPI/UAssetAPI.md)
 - [Blueprint modding](Specific-Guides/Logic-Mods/Blueprint.md)
+    - [UML setup](Specific-Guides/Logic-Mods/UML-Setup.md)
+    - [.profile creation](Specific-Guides/Logic-Mods/Profile.md)
+    - [Project setup](Specific-Guides/Logic-Mods/Project-Setup.md)
+    - [Mod creation](Specific-Guides/Logic-Mods/Creation.md)
+    - [Installing](Specific-Guides/Logic-Mods/Installing.md)
+    - [Auto-Injector setup](Specific-Guides/Logic-Mods/Injector.md)
 
 ---
 # Tools and Resources
