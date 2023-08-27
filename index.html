@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js coal">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home Page - UE4 Modding Guide</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "coal";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('coal')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="home.html" class="active">Home Page</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Starting out</li><li class="chapter-item expanded "><a href="basics/basics.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="basics/unpacking/options.html"><strong aria-hidden="true">1.1.</strong> Extraction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="basics/unpacking/umodel.html"><strong aria-hidden="true">1.1.1.</strong> umodel</a></li><li class="chapter-item expanded "><a href="basics/unpacking/fmodel.html"><strong aria-hidden="true">1.1.2.</strong> FModel</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Unreal Engine</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="basics/engine/setup.html"><strong aria-hidden="true">1.2.1.</strong> Setting Up</a></li><li class="chapter-item expanded "><a href="basics/engine/creation.html"><strong aria-hidden="true">1.2.2.</strong> Content Creation</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Packaging</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="basics/packing/cooking.html"><strong aria-hidden="true">1.3.1.</strong> Cooking</a></li><li class="chapter-item expanded "><a href="basics/packing/packaging.html"><strong aria-hidden="true">1.3.2.</strong> Final Packaging</a></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Core UE4 Modding Concepts</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="concepts/paks.html"><strong aria-hidden="true">2.1.</strong> Pak files</a></li><li class="chapter-item expanded "><a href="concepts/loading.html"><strong aria-hidden="true">2.2.</strong> Mod Loading</a></li><li class="chapter-item expanded "><a href="concepts/cooking.html"><strong aria-hidden="true">2.3.</strong> Cooking</a></li><li class="chapter-item expanded "><a href="concepts/files.html"><strong aria-hidden="true">2.4.</strong> Unreal files</a></li><li class="chapter-item expanded "><a href="concepts/dummying.html"><strong aria-hidden="true">2.5.</strong> Dummying</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Specific Guides</li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Models (Whole section is WIP)</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">3.1.</strong> Meshes</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.2.</strong> Skeletons</div></li></ol></li><li class="chapter-item expanded "><a href="specific/disabling/disabling.html"><strong aria-hidden="true">4.</strong> Disabling objects</a></li><li class="chapter-item expanded "><a href="specific/UAssetGUI.html"><strong aria-hidden="true">5.</strong> Using UAssetGUI</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Materials</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="specific/materials/UAssetGUI.html"><strong aria-hidden="true">6.1.</strong> Via UAssetGUI</a></li><li class="chapter-item expanded "><a href="specific/materials/engine.html"><strong aria-hidden="true">6.2.</strong> In Engine</a></li></ol></li><li class="chapter-item expanded "><a href="specific/dialogue.html"><strong aria-hidden="true">7.</strong> Text and Dialogue</a></li><li class="chapter-item expanded "><a href="specific/levels.html"><strong aria-hidden="true">8.</strong> Level Editing</a></li><li class="chapter-item expanded "><a href="specific/UAssetAPI.html"><strong aria-hidden="true">9.</strong> Using UAssetAPI</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Tools and Resources</li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Tools</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="tools/packers.html"><strong aria-hidden="true">10.1.</strong> Pakers/Unpakers</a></li><li class="chapter-item expanded "><a href="tools/explorers.html"><strong aria-hidden="true">10.2.</strong> Pak Explorers</a></li><li class="chapter-item expanded "><a href="tools/uasset.html"><strong aria-hidden="true">10.3.</strong> UAsset Editors</a></li><li class="chapter-item expanded "><a href="tools/locres.html"><strong aria-hidden="true">10.4.</strong> Locres Editors</a></li></ol></li><li class="chapter-item expanded "><a href="resources/resources.html"><strong aria-hidden="true">11.</strong> Resources</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="resources/discords.html"><strong aria-hidden="true">11.1.</strong> Discords</a></li><li class="chapter-item expanded "><a href="resources/guides.html"><strong aria-hidden="true">11.2.</strong> Other Guides</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">UE4 Modding Guide</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/bananaturtlesandwich/UE4-Modding-Guide" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/bananaturtlesandwich/UE4-Modding-Guide/edit/main/src/home.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><a href="https://discord.gg/bluefire"><img src="https://img.shields.io/discord/582598044407562240?color=%237289da&amp;label=Join%20the%20Blue%20Fire%20discord%21&amp;style=for-the-badge" alt="" /></a>
+<a href="https://www.nexusmods.com/bluefire/"><img src="https://img.shields.io/badge/Nexus%20page-orange?style=for-the-badge&amp;logo=data:image/png;base64,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" alt="" /></a>
+<img src="https://img.shields.io/github/deployments/bananaturtlesandwich/Blue-Fire-Modding-Guide/github-pages?label=website%20build&amp;style=for-the-badge" alt="" /></p>
+<p><strong>If you wish to use this guide to rip assets out of a game and use them for your own benefit and not to mod, kindly piss off</strong></p>
+<p>This is a general guide for Unreal Engine 4 game modding that uses Blue Fire for examples</p>
+<p><em>Blue Fire doesn't have a big enough modding scene to fascilitate a guide like this anyway</em></p>
+<h3 id="credits"><a class="header" href="#credits">Credits</a></h3>
+<ul>
+<li>
+<p>FatihG_ and Fluffyquack for being patient with me at the start</p>
+</li>
+<li>
+<p><a href="https://github.com/Buckminsterfullerene02">Buckminsterfullerene</a> for making the UE modding discord and pooling resources</p>
+</li>
+<li>
+<p><a href="https://github.com/atenfyr">atenfyr/adolescent</a> for making UassetAPI and GUI </p>
+</li>
+<li>
+<p><a href="https://github.com/RussellJerome">RusselJ</a> for making the Unreal Modloader</p>
+</li>
+<li>
+<p><a href="https://github.com/Dmgvol">Dmgvol</a> for making cool things</p>
+</li>
+<li>
+<p><a href="https://www.robistudios.com/">Robi Studios</a> for making <a href="https://store.steampowered.com/app/1220150/Blue_Fire/">Blue Fire</a> - you guys are awesome!</p>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+                            <a rel="next" href="basics/basics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+                    <a rel="next" href="basics/basics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
