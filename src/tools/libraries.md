@@ -6,9 +6,6 @@
 
   - [unreal automation tools](https://docs.rs/cargo-uat)
 
-  ### Python
-  - [PyPakParser](https://pypi.org/project/PyPAKParser/)
-
   ### C sharp
   - [UassetAPI](https://github.com/atenfyr/UAssetAPI)
 
@@ -19,3 +16,7 @@
   - [UnSave.Extensions](https://www.nuget.org/packages/UnSave.Extensions)
   
   - [PakReader](https://www.nuget.org/packages/PakReader/)
+  
+  ### Python
+  - [PyPakParser](https://pypi.org/project/PyPAKParser/)
+

@@ -9,4 +9,4 @@
     
     - If there are multiple pak files then your game has split its paks into chunks - This shouldn't affect the process significantly
 
-- There are more options found in [Pakers/Unpakers](../../Tools/Pakers.md) and [Pak Explorers](../../Tools/Pak-Explorers.md) that I won't go into detail about in this section  
+- There are more options found in [Pakers/Unpakers](../../tools/packers.md) and [Pak Explorers](../../tools/explorers.md) that I won't go into detail about in this section  
