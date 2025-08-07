@@ -1,1 +1,1 @@
-## If you came here for the guide go to https://bananaturtlesandwich.github.io/UE4-Modding-Guide :)
+## If you came here for the guide go to https://uemodding.spuds.casa :)
